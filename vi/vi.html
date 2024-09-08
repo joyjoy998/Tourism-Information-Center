@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visitor Information</title>
     <script>
-      async function searchByCity() {
-        const city = document.getElementById("query").value.trim(); // Get and trim user input
+      async function search() {
+        const query = document.getElementById("query").value.trim(); // Get and trim user input
 
         // Ensure input field is filled
-        if (!city) {
-          alert("Please enter a city name.");
+        if (!query) {
+          alert("Please enter a search term (state, city, or attraction name).");
           return;
         }
 
-        // Create query parameters to send the city name
-        const params = new URLSearchParams({ city: city });
+        // Create query parameters to send the search term
+        const params = new URLSearchParams({ search: query });
         console.log("Query Parameters:", params.toString()); 
 
         try {
@@ -29,22 +29,45 @@
  
           const data = await response.json();
           console.log(data);
+          displayResults(data)
   
         } catch (error) {
           console.error("Error fetching data:", error);
           alert("There was an error fetching the search results. Please try again.");
         }
       }
+      function displayResults(data) {
+        const resultsDiv = document.getElementById("results");
+        resultsDiv.innerHTML = ""; // Clear previous search results
 
-    
+        if (data.length === 0) {
+          resultsDiv.innerHTML = "<p>No results found.</p>"; // Handle no results case
+          return;
+        }
+
+        data.forEach((item) => {
+          const div = document.createElement("div");
+          div.innerHTML = `
+            <h3>${item.Name}</h3>
+            <p>City: ${item.City}</p>
+            <p>State: ${item.State}</p>
+            <p>Description: ${item.Description}</p>
+            <img src="${item.Image}" alt="${item.Name}" width="200">
+          `;
+          resultsDiv.appendChild(div);
+        });
+      }
     </script>
   </head>
   <body>
     <div>
-      <label for="query">City Search:</label>
-      <input type="text" id="query" placeholder="Enter city name" />
+      <label for="query">Search:</label>
+      <input type="text" id="query" placeholder="Enter state, city, or attraction name" />
     </div>
-    <button onclick="searchByCity()">Search</button>
+    <button onclick="search()">Search</button>
+    <div id="results"></div>
+    <div id="recommend">
 
+    </div>
   </body>
 </html>
