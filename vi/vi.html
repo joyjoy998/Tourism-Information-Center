@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visitor Information</title>
     <script>
-      async function search() {
+     async function search() {
         const query = document.getElementById("query").value.trim(); // Get and trim user input
 
         // Ensure input field is filled
@@ -53,10 +53,59 @@
             <p>State: ${item.State}</p>
             <p>Description: ${item.Description}</p>
             <img src="${item.Image}" alt="${item.Name}" width="200">
+            <hr/>
           `;
           resultsDiv.appendChild(div);
         });
       }
+
+      async function getHotAttractions() {
+        try {
+          const response = await fetch(
+            `https://pqpanua4za.execute-api.ap-southeast-2.amazonaws.com/prod/viHot`
+          );
+
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+
+          const data = await response.json();
+          console.log("Precomputed Attractions:", data);
+          displayHotAttractions(data);
+
+        } catch (error) {
+          console.error("Error fetching precomputed attractions:", error);
+        }
+      }
+
+      function displayHotAttractions(data) {
+        const hotDiv = document.getElementById("hot");
+        hotDiv.innerHTML = ""; // Clear previous hot places
+
+        if (data.length === 0) {
+          hotDiv.innerHTML = "<p>No hot places found.</p>";
+          return;
+        }
+
+        data.forEach((item) => {
+          const div = document.createElement("div");
+          div.innerHTML = `
+           
+            <h3>${item.Name}</h3>
+            <p>City: ${item.City}</p>
+            <p>State: ${item.State}</p>
+            <img src="${item.Image}" alt="${item.Name}" width="200">
+            <p>${item.Description}</p>
+               <hr/>
+          `;
+          hotDiv.appendChild(div);
+        });
+      }
+
+     
+      window.onload = function() {
+        getHotAttractions();
+      };
     </script>
   </head>
   <body>
@@ -66,8 +115,7 @@
     </div>
     <button onclick="search()">Search</button>
     <div id="results"></div>
-    <div id="recommend">
-
-    </div>
+    <h2>Hot places</h2>
+    <div id="hot"></div>
   </body>
 </html>
