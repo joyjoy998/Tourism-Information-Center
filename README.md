@@ -1,12 +1,18 @@
 # Tourism-Information-Center
 
+## 记得这只是个"5 points"的部分,请在贴合要求的前提下怎么简单怎么来,省下来的时间可以做其他事,别把时间浪费在这上边.
+
+## 测试 API 的工具
+
+可以用 POSTMAN 简单方便,也可以在 VS CODE 上安装 REST CLIENT 的 extension.
+
 ## 思路
 
-在页面加载时,异步请求服务器,获取 attraction 跟 event 数据,然后保存到当前 session 中,在页面渲染时,从 session 中取出数据,进行渲染. (tourbooking 可以考虑点击对应 attraction 时再 request 数据,但感觉数据量小的话直接在页面加载时获取数据可能会更快)
+在页面加载时, request 服务器,获取 hot attraction, events 的数据,等收到后再进行渲染, tourbooking 在点击对应 attraction 时再 request 数据.性能可能会因此有所下降,但更符合要求
 
-首页:可能预估做成静态(就是直接把文字描述及图片放在本地),不从服务器上获取文字图片等数据,可以为了数据获取缓冲的时间.
+首页: 如上所示.
 
-Attraction 页面: 预计会有搜索框,搜索框会根据输入的关键字,在 attraction 数据中进行匹配,然后渲染到页面中.然后用户点击某个 attraction 的"了解更多"按钮时,就会弹出一个框,里面是对应 attraction 的详细信息.用户可以通过输入个人信息,预定门票.
+Attraction 页面: 加载时 request 请求数据,然后进行渲染.预计会有搜索框,搜索框有下拉菜单 city， state 跟文本输入框,在 attraction 数据中进行匹配,根据 response 数据重新渲染页面.然后用户点击某个 attraction 的"了解更多"按钮时,异步请求对应 tour 的数据,然后弹出一个框,里面是对应 attraction 的的 tour 信息.用户可以通过输入个人信息,预定门票.
 
 Events 页面: 比 Attraction 页简单,列出所有 event 后,用户点击某个 event 的"了解更多"按钮时,(页面会跳到最下边)出现要求填写邮箱的输入框,然后点击提交按钮,会弹出"预定成功"的对话框.
 
