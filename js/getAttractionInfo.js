@@ -57,7 +57,7 @@ function createAttractionElement(attraction, index) {
             <i class="description">${attraction.Description}</i>
             <button class="btn btn-primary open-modal" data-attraction-id="${attraction.AttractionID}">Book Now</button>
           </div>
-          <div class="col" img-container>
+          <div class="col img-container">
             <img src="${attraction.Image}" alt="${attraction.Name}">
           </div>
         `
