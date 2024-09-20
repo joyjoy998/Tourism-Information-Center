@@ -35,6 +35,7 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div id="top"></div>
@@ -136,220 +137,21 @@
 
     <!-- home section ends -->
 
-    <!-- category/adventure section starts  -->
+    <!-- hot attraction section starts  -->
 
     <section class="category adventure" id="adventure">
-      <h1 class="heading">adventure Activities</h1>
+      <h1 class="heading">Hot Attractions</h1>
 
-      <div class="box-container">
-        <div class="box">
-          <img src="images/paragliding.jpg" alt="" />
-          <h3>Paragliding</h3>
-          <p>
-            Recently introduced to Sri Lanka, this adventure sport is an ideal
-            way to indulge yourself...
-          </p>
-          <a href="adventure.html#para" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-          <img src="images/helicopter.jpg" alt="" />
-          <h3>Helicopter Tours</h3>
-          <p>
-            Whether you in a packed schedule or hate wasting time on the road or
-            simply like to indulge...
-          </p>
-          <a href="adventure.html#heli" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-          <img src="images/balloon.jpg" alt="" />
-          <h3>Hot Air Ballooning</h3>
-          <p>
-            Why Not Enjoy This Beautiful Paradise In The Bird’s Eye View
-            Floating Over The Thick Dense Forests...
-          </p>
-          <a href="adventure.html#balloon" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-          <img src="images/safa2.jpg" alt="" />
-          <h3>Wild life Safari</h3>
-          <p>
-            With a wildlife abundance rich in diversity and quantity, Sri Lanka
-            promises you...
-          </p>
-          <a href="adventure.html#safa" class="btn">read more</a>
-        </div>
-      </div>
+      <div class="box-container" id="hot-attraction-container"></div>
     </section>
 
-    <!-- category/adventure section ends -->
+    <!-- hot attraction section ends -->
 
     <!-- event home page section starts -->
 
     <section class="event">
       <h1 class="heading1">Upcoming Events</h1>
-      <div class="eventrow">
-        <div class="example-2 card">
-          <div class="wrapper">
-            <div class="head">
-              <div class="date">
-                <span class="day">05</span>
-                <span class="month">Dec</span>
-                <span class="year">2022</span>
-              </div>
-              <ul class="menu-content">
-                <li>
-                  <a href="#" class="fa fa-bookmark-o"></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-heart-o" id="heart"
-                    ><span>18</span></a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="fa fa-comment-o"><span>3</span></a>
-                </li>
-              </ul>
-            </div>
-            <div class="data">
-              <div class="Econtent">
-                <span class="author">Damitha Jayatharaka</span>
-                <h1 class="title">
-                  <a href="#">Sri Pada Pilgrimage Season</a>
-                </h1>
-                <p class="text1">
-                  Though not the highest mountain of Sri Lanka, the striking
-                  pyramid of Adam's Peak (7,360 ft) is certainly the...
-                </p>
-                <a href="events.html#sripada" class="Ebutton">Read more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="example-2 card">
-          <div
-            class="wrapper"
-            style="
-              background: linear-gradient(#ffffff00, #00000082),
-                url(/images/awurudu.jpg) center/cover no-repeat;
-            "
-          >
-            <div class="head">
-              <div class="date">
-                <span class="day">05</span>
-                <span class="month">Dec</span>
-                <span class="year">2022</span>
-              </div>
-              <ul class="menu-content">
-                <li>
-                  <a href="#" class="fa fa-bookmark-o"></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-heart-o"><span>18</span></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-comment-o"><span>3</span></a>
-                </li>
-              </ul>
-            </div>
-            <div class="data">
-              <div class="Econtent">
-                <span class="author">Damitha Jayatharaka</span>
-                <h1 class="title">
-                  <a href="#">Sinhala & Hindu New Year - 2023</a>
-                </h1>
-                <p class="text1">
-                  Sinhalese New Year, generally known as Aluth Avurudda in Sri
-                  Lanka, is a Sri Lankan holiday that celebrates the...
-                </p>
-                <a href="events.html#awurudu" class="Ebutton">Read more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--  -->
-
-        <div class="example-2 card">
-          <div
-            class="wrapper"
-            style="
-              background: linear-gradient(#ffffff00, #00000082),
-                url(/images/perahera.jpg) center/cover no-repeat;
-            "
-          >
-            <div class="head">
-              <div class="date">
-                <span class="day">05</span>
-                <span class="month">Dec</span>
-                <span class="year">2022</span>
-              </div>
-              <ul class="menu-content">
-                <li>
-                  <a href="#" class="fa fa-bookmark-o"></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-heart-o"><span>18</span></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-comment-o"><span>3</span></a>
-                </li>
-              </ul>
-            </div>
-            <div class="data">
-              <div class="Econtent">
-                <span class="author">Damitha Jayatharaka</span>
-                <h1 class="title"><a href="#">Asala Perahera - 2023</a></h1>
-                <p class="text1">
-                  The Kandy Esala Perahera (the Sri Dalada Perahara procession
-                  of Kandy) also known as The...
-                </p>
-                <a href="events.html#asala" class="Ebutton">Read more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="example-2 card">
-          <div
-            class="wrapper"
-            style="background: url(/images/vesak.jpg) center/cover no-repeat"
-          >
-            <div class="head">
-              <div class="date">
-                <span class="day">05</span>
-                <span class="month">Dec</span>
-                <span class="year">2022</span>
-              </div>
-              <ul class="menu-content">
-                <li>
-                  <a href="#" class="fa fa-bookmark-o"></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-heart-o"><span>18</span></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-comment-o"><span>3</span></a>
-                </li>
-              </ul>
-            </div>
-            <div class="data">
-              <div class="Econtent">
-                <span class="author">Damitha Jayatharaka</span>
-                <h1 class="title"><a href="#">Vesak Festival</a></h1>
-                <p class="text1">
-                  Vesak is a religious and cultural festival in Sri Lanka. It is
-                  celebrated on the day of the full moon in the month of May...
-                </p>
-                <a href="events.html#vesak" class="Ebutton">Read more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="eventrow" id="upcoming-event-container"></div>
     </section>
 
     <!-- event home page section ends -->
@@ -440,7 +242,8 @@
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
-
+    <script src="js/getHotAttraction.js"></script>
+    <script src="js/getHomeEvents.js"></script>
     <!-- <div class="scroll-container">
     <a href="#top">To Top</a>
 </div> -->
