@@ -31,7 +31,7 @@ function createAttractionElement(attraction) {
   <img src="${attraction.Image}" alt="${attraction.Name}">
   <h3>${attraction.Name}</h3>
   <p>${attraction.Description}</p>
-  <a href="attraction.html" class="btn">Read More</a>
+  <a href="attraction.html#${attraction.AttractionID}" class="btn">Read More</a>
   </div>`;
 
   return attractionElement;

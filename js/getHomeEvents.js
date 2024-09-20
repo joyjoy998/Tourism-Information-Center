@@ -60,7 +60,7 @@ function createEventElement(event, index) {
           <p class="text1">
             ${description}
           </p>
-          <a href="events.html" class="Ebutton">Read more</a>
+          <a href="events.html#${event.event_id}" class="Ebutton">Read more</a>
         </div>
       </div>
     </div>
