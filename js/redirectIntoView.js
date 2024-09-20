@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   if (window.location.hash) {
-    const hash = window.location.hash; // 例如 #para
+    const hash = window.location.hash;
     const targetElement = document.querySelector(hash);
 
     if (targetElement) {
