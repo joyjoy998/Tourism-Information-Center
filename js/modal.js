@@ -85,7 +85,7 @@ function updateModalContent(data) {
     const price = parseFloat(data[0].Price);
     const seatsBooked = parseInt(document.getElementById("seatsBooked").value);
     const totalPrice = price * seatsBooked;
-    document.getElementById("totalPrice").textContent = totalPrice.toFixed(2); // 保留两位小数
+    document.getElementById("totalPrice").textContent = totalPrice;
   }
 
   document.getElementById("tourDate").addEventListener("change", function () {
