@@ -26,6 +26,13 @@ async function search() {
       const attractionElement = createAttractionElement(attraction, index);
       attractionContainer.appendChild(attractionElement);
     });
+
+    document.querySelectorAll(".open-modal").forEach((button) => {
+      button.addEventListener("click", function () {
+        const attractionId = this.getAttribute("data-attraction-id");
+        openAttractionModal(attractionId);
+      });
+    });
   } catch (error) {
     console.error("Some error occurred:", error);
     alert("There was an error fetching the search results. Please try again.");

@@ -20,6 +20,13 @@ function loadAttractions() {
         const attractionElement = createAttractionElement(attraction, index);
         attractionContainer.appendChild(attractionElement);
       });
+
+      document.querySelectorAll(".open-modal").forEach((button) => {
+        button.addEventListener("click", function () {
+          const attractionId = this.getAttribute("data-attraction-id");
+          openAttractionModal(attractionId);
+        });
+      });
     })
     .catch(function (error) {
       console.error("Some error occurred:", error);

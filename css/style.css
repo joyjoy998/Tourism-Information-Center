@@ -1352,4 +1352,50 @@ a .news__item:hover {
   }
 }
 
+.fixed-width-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 500px !important; /* 总宽度，可以根据需要调整 */
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fixed-width-search .search-input {
+  width: 400px !important; /* 输入框宽度，可以根据需要调整 */
+  height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  flex-grow: 1;
+}
+
+.fixed-width-search .search-button {
+  width: 100px !important; /* 按钮宽度，可以根据需要调整 */
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.fixed-width-search .search-button:hover {
+  background-color: #0056b3;
+}
+
+.search-container .form-control {
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
+
+#query::placeholder {
+  font-size: 1.3em;
+  color: #888;
+}

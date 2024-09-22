@@ -1,59 +1,101 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // 获取模态框元素
-  var modal = document.getElementById("activityModal");
-  var modalTitle = document.getElementById("modalTitle");
-  var modalDescription = document.getElementById("modalDescription");
-  var span = document.getElementsByClassName("close")[0];
+  const modal = document.getElementById("attractionModal");
 
-  // 获取所有打开模态框的按钮
-  var btns = document.getElementsByClassName("open-modal");
+  const closeBtn = modal.querySelector(".close");
 
-  // 为每个按钮添加点击事件
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].onclick = function () {
-      var activity = this.getAttribute("data-activity");
-      modalTitle.textContent = activity;
-      modalDescription.textContent = getActivityDescription(activity);
-      modal.style.display = "block";
-    };
-  }
+  document.querySelectorAll("[data-attraction-id]").forEach((element) => {
+    element.addEventListener("click", function () {
+      const attractionId = this.getAttribute("data-attraction-id");
+      openAttractionModal(attractionId);
+    });
+  });
 
-  // 点击 (x) 关闭模态框
-  span.onclick = function () {
+  closeBtn.addEventListener("click", function () {
     modal.style.display = "none";
-  };
+  });
 
-  // 点击模态框外部关闭模态框
-  window.onclick = function (event) {
+  window.addEventListener("click", function (event) {
     if (event.target == modal) {
       modal.style.display = "none";
     }
-  };
-
-  // 处理表单提交
-  document.getElementById("bookingForm").onsubmit = function (e) {
-    e.preventDefault();
-    var date = document.getElementById("date").value;
-    var people = document.getElementById("people").value;
-    alert("预订成功! 日期: " + date + ", 人数: " + people);
-    modal.style.display = "none";
-  };
+  });
 });
 
-// 获取活动描述的函数 (你需要为每个活动添加描述)
-function getActivityDescription(activity) {
-  var descriptions = {
-    "Sri Pada Pilgrimage Season":
-      "斯里帕达朝圣季是一个重要的宗教活动,信徒们攀登亚当峰顶礼佛足印。",
-    "Independence Day":
-      "独立日是斯里兰卡庆祝从英国统治下获得政治独立的国庆日。",
-    "Sinhala And Hindu New Year":
-      "僧伽罗和印度新年是斯里兰卡最重要的文化节日之一,庆祝新的一年的开始。",
-    "Vesak festival": "卫塞节是纪念佛陀诞生、成道和涅槃的重要佛教节日。",
-    "Kandy Asala Perahera":
-      "康提埃萨拉佩拉赫拉是斯里兰卡最盛大的佛教游行,展示传统舞蹈和文化。",
-    Christmas:
-      "圣诞节在斯里兰卡也受到庆祝,人们装饰圣诞树,交换礼物,享用特别的晚餐。",
-  };
-  return descriptions[activity] || "暂无描述";
+function openAttractionModal(attractionId) {
+  const apiUrl = `https://nfrery0wo9.execute-api.ap-southeast-2.amazonaws.com/dev/ToursInfo/${attractionId}`;
+
+  axios
+    .get(apiUrl)
+    .then(function (response) {
+      const attractionData = response.data;
+      updateModalContent(attractionData);
+
+      document.getElementById("attractionModal").style.display = "block";
+    })
+    .catch(function (error) {
+      console.error("Error:", error);
+    });
+}
+
+function updateModalContent(data) {
+  const modalBody = document.getElementById("attractionModalBody");
+
+  const dateOptions = data
+    .map(
+      (tour) => `<option value="${tour.StartDate}">${tour.StartDate}</option>`
+    )
+    .join("");
+
+  modalBody.innerHTML = `
+    <p><strong>Attraction Name:</strong> ${data[0].TourName}</p>
+    <p><strong>Location:</strong> ${data[0].Location.replace(/"/g, "")}</p>
+    <p><strong>Description:</strong> ${data[0].Description}</p>
+    <p><strong>Price from:</strong> $${data[0].Price} Per Person</p>
+    <p>
+      <strong>Select Date:</strong>
+      <select id="tourDate">
+        ${dateOptions}
+      </select>
+    </p>
+    <p><strong>Available:</strong> <span id="availableSeats">${
+      data[0].AvailableSeats
+    }</span></p>
+    <div class="userInput">
+    <p><strong>Full Name:</strong> <input type="text" id="fullName" required /></p>
+    <p><strong>Email:</strong> <input type="email" id="email" required /></p>
+    <p><strong>Phone Number:</strong> <input type="tel" id="phoneNumber" required /></p>
+    <p>
+    <span>
+      <strong>People:</strong>
+      <input type="number" id="seatsBooked" min="1" max=${
+        data[0].AvailableSeats
+      } value="1" required />
+      </span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="totalPrice">
+      <strong>Total Price:</strong> <span id="totalPrice">${
+        data[0].Price
+      }</span></span>
+    </p>
+    </div>
+    <button id="bookButton">Book</button>
+  `;
+
+  function calculateTotalPrice() {
+    const price = parseFloat(data[0].Price);
+    const seatsBooked = parseInt(document.getElementById("seatsBooked").value);
+    const totalPrice = price * seatsBooked;
+    document.getElementById("totalPrice").textContent = totalPrice.toFixed(2); // 保留两位小数
+  }
+
+  document.getElementById("tourDate").addEventListener("change", function () {
+    const selectedDate = this.value;
+    const selectedTour = data.find((tour) => tour.StartDate === selectedDate);
+    document.getElementById("availableSeats").textContent =
+      selectedTour.AvailableSeats;
+  });
+
+  document
+    .getElementById("seatsBooked")
+    .addEventListener("input", calculateTotalPrice);
 }

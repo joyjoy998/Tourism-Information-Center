@@ -7,15 +7,16 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
+  background-color: #fff;
+  margin: 5% auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
   max-width: 500px;
 }
 
@@ -29,12 +30,11 @@
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #000;
   text-decoration: none;
-  cursor: pointer;
 }
 
-#bookingForm {
+#attractionModalBody #bookingForm {
   margin-top: 20px;
 }
 
@@ -42,4 +42,72 @@
 #bookingForm input {
   display: block;
   margin-bottom: 10px;
+}
+
+#attractionModalBody h2 {
+  margin-top: 0;
+}
+
+#attractionModalBody p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+#attractionModalBody select {
+  width: 35%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#attractionModalBody button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+#attractionModalBody button:hover {
+  background-color: #45a049;
+}
+
+#attractionModalBody .userInput input {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+#attractionModalBody .userInput input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+#attractionModalBody #seatsBooked {
+  width: 13%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#attractionModalBody #fullName,
+#attractionModalBody #email,
+#attractionModalBody #phoneNumber {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#attractionModalLabel {
+  text-align: center; /* 将标题居中 */
+  font-size: 24px; /* 调整字体大小 */
+  margin: 20px 0; /* 添加上下间距 */
 }
