@@ -67,9 +67,7 @@ function updateModalContent(data) {
     <p>
     <span>
       <strong>People:</strong>
-      <input type="number" id="seatsBooked" min="1" max=${
-        data[0].AvailableSeats
-      } value="1" required />
+      <input type="number" id="seatsBooked" min="1" max="10" value="1" required />
       </span>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <span class="totalPrice">
