@@ -23,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function openAttractionModal(attractionId) {
   const apiUrl = `https://nfrery0wo9.execute-api.ap-southeast-2.amazonaws.com/dev/ToursInfo/${attractionId}`;
-
+  const modal = document.getElementById("attractionModal");
+  modal.setAttribute("data-attraction-id", attractionId);
   axios
     .get(apiUrl)
     .then(function (response) {
@@ -34,6 +35,8 @@ function openAttractionModal(attractionId) {
     })
     .catch(function (error) {
       console.error("Error:", error);
+      modalBody.innerHTML =
+        "<p>There was an error fetching the attraction details. Please try again later.</p>";
     });
 }
 
@@ -47,6 +50,7 @@ function updateModalContent(data) {
     .join("");
 
   modalBody.innerHTML = `
+    <h2 id="attractionModalLabel">Attraction Details</h2>
     <p><strong>Attraction Name:</strong> ${data[0].TourName}</p>
     <p><strong>Location:</strong> ${data[0].Location.replace(/"/g, "")}</p>
     <p><strong>Description:</strong> ${data[0].Description}</p>
@@ -96,4 +100,25 @@ function updateModalContent(data) {
   document
     .getElementById("seatsBooked")
     .addEventListener("input", calculateTotalPrice);
+
+  document.getElementById("bookButton").addEventListener("click", function () {
+    const attractionId = document
+      .querySelector("#attractionModal")
+      .getAttribute("data-attraction-id");
+    console.log("Booking attractionId:", attractionId);
+    const customerName = document.getElementById("fullName").value;
+    const customerEmail = document.getElementById("email").value;
+    const phoneNumber = document.getElementById("phoneNumber").value;
+    const seatsBooked = parseInt(document.getElementById("seatsBooked").value);
+    const startDate = document.getElementById("tourDate").value;
+
+    processBooking(
+      attractionId,
+      customerName,
+      customerEmail,
+      phoneNumber,
+      seatsBooked,
+      startDate
+    );
+  });
 }
