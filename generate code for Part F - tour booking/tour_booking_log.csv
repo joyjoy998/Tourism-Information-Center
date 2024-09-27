@@ -1,0 +1,1185 @@
+Case ID,Start Timestamp,Complete Timestamp,Task,Resource
+1,2024-09-27 22:36:02.924468,2024-09-27 22:36:05.346613,Search for attraction,Eve
+1,2024-09-27 22:36:05.346613,2024-09-27 22:36:08.818846,Response attraction information to user,VisitorInformationSystem
+1,2024-09-27 22:36:08.818846,2024-09-27 22:36:11.952530,Click specific attraction book now button,Eve
+1,2024-09-27 22:36:11.952530,2024-09-27 22:36:15.220567,Response tour information to user,BookingSystem
+1,2024-09-27 22:36:15.220567,2024-09-27 22:36:19.675595,View specific tour details,Eve
+1,2024-09-27 22:36:19.675595,2024-09-27 22:36:21.068262,Fill personal information and click book button,Eve
+1,2024-09-27 22:36:21.068262,2024-09-27 22:36:25.762166,Validate user input,BookingSystem
+1,2024-09-27 22:36:25.762166,2024-09-27 22:36:27.579342,Check availability,InventorySystem
+1,2024-09-27 22:36:27.579342,2024-09-27 22:36:32.286207,Create an order and return an order id to user,BookingSystem
+1,2024-09-27 22:36:32.286207,2024-09-27 22:36:33.997925,Confirm and pay,Eve
+1,2024-09-27 22:36:33.997925,2024-09-27 22:36:35.473209,Validate user payment information and process payment,PaymentGateway
+1,2024-09-27 22:36:35.473209,2024-09-27 22:36:40.131425,Update inventory,InventorySystem
+1,2024-09-27 22:36:40.131425,2024-09-27 22:36:43.386811,Send confirmation message to user,BookingSystem
+1,2024-09-27 22:36:43.386811,2024-09-27 22:36:46.941885,Receive confirmation,Eve
+2,2024-09-27 22:36:02.924490,2024-09-27 22:36:06.170870,Browse attraction page,Charlie
+2,2024-09-27 22:36:06.170870,2024-09-27 22:36:06.170870,Process terminated: User exited early,Charlie
+3,2024-09-27 22:36:02.924493,2024-09-27 22:36:06.493341,Search for attraction,Alice
+3,2024-09-27 22:36:06.493341,2024-09-27 22:36:08.744012,Response attraction information to user,VisitorInformationSystem
+3,2024-09-27 22:36:08.744012,2024-09-27 22:36:12.075182,Click specific attraction book now button,Alice
+3,2024-09-27 22:36:12.075182,2024-09-27 22:36:15.650646,Response tour information to user,BookingSystem
+3,2024-09-27 22:36:15.650646,2024-09-27 22:36:17.444637,View specific tour details,Alice
+3,2024-09-27 22:36:17.444637,2024-09-27 22:36:18.868039,Fill personal information and click book button,Alice
+3,2024-09-27 22:36:18.868039,2024-09-27 22:36:22.177185,Validate user input,BookingSystem
+3,2024-09-27 22:36:22.177185,2024-09-27 22:36:25.929216,Check availability,InventorySystem
+3,2024-09-27 22:36:25.929216,2024-09-27 22:36:30.575275,Create an order and return an order id to user,BookingSystem
+3,2024-09-27 22:36:30.575275,2024-09-27 22:36:33.317559,Confirm and pay,Alice
+3,2024-09-27 22:36:33.317559,2024-09-27 22:36:35.460749,Validate user payment information and process payment,PaymentGateway
+3,2024-09-27 22:36:35.460749,2024-09-27 22:36:39.370076,Update inventory,InventorySystem
+3,2024-09-27 22:36:39.370076,2024-09-27 22:36:41.969399,Send confirmation message to user,BookingSystem
+3,2024-09-27 22:36:41.969399,2024-09-27 22:36:45.583701,Receive confirmation,Alice
+4,2024-09-27 22:36:02.924501,2024-09-27 22:36:04.893906,Browse attraction page,Eve
+4,2024-09-27 22:36:04.893906,2024-09-27 22:36:09.581142,Response attraction information to user,VisitorInformationSystem
+4,2024-09-27 22:36:09.581142,2024-09-27 22:36:14.429772,Click specific attraction book now button,Eve
+4,2024-09-27 22:36:14.429772,2024-09-27 22:36:16.357742,Response tour information to user,BookingSystem
+4,2024-09-27 22:36:16.357742,2024-09-27 22:36:21.247195,View specific tour details,Eve
+4,2024-09-27 22:36:21.247195,2024-09-27 22:36:25.327536,Fill personal information and click book button,Eve
+4,2024-09-27 22:36:25.327536,2024-09-27 22:36:26.520933,Validate user input,BookingSystem
+4,2024-09-27 22:36:26.520933,2024-09-27 22:36:29.733540,Check availability,InventorySystem
+4,2024-09-27 22:36:29.733540,2024-09-27 22:36:33.011374,Create an order and return an order id to user,BookingSystem
+4,2024-09-27 22:36:33.011374,2024-09-27 22:36:35.140671,Confirm and pay,Eve
+4,2024-09-27 22:36:35.140671,2024-09-27 22:36:37.743833,Validate user payment information and process payment,PaymentGateway
+4,2024-09-27 22:36:37.743833,2024-09-27 22:36:39.914243,Update inventory,InventorySystem
+4,2024-09-27 22:36:39.914243,2024-09-27 22:36:43.914113,Send confirmation message to user,BookingSystem
+4,2024-09-27 22:36:43.914113,2024-09-27 22:36:45.357809,Receive confirmation,Eve
+5,2024-09-27 22:36:02.924509,2024-09-27 22:36:07.827194,Search for attraction,David
+5,2024-09-27 22:36:07.827194,2024-09-27 22:36:10.427451,Response attraction information to user,VisitorInformationSystem
+5,2024-09-27 22:36:10.427451,2024-09-27 22:36:15.112262,Click specific attraction book now button,David
+5,2024-09-27 22:36:15.112262,2024-09-27 22:36:17.898043,Response tour information to user,BookingSystem
+5,2024-09-27 22:36:17.898043,2024-09-27 22:36:21.416787,View specific tour details,David
+5,2024-09-27 22:36:21.416787,2024-09-27 22:36:22.476151,Fill personal information and click book button,David
+5,2024-09-27 22:36:22.476151,2024-09-27 22:36:24.557359,Validate user input,BookingSystem
+5,2024-09-27 22:36:24.557359,2024-09-27 22:36:28.703672,Check availability,InventorySystem
+5,2024-09-27 22:36:28.703672,2024-09-27 22:36:31.893984,Create an order and return an order id to user,BookingSystem
+5,2024-09-27 22:36:31.893984,2024-09-27 22:36:36.316134,Confirm and pay,David
+5,2024-09-27 22:36:36.316134,2024-09-27 22:36:41.285260,Validate user payment information and process payment,PaymentGateway
+5,2024-09-27 22:36:41.285260,2024-09-27 22:36:43.169679,Update inventory,InventorySystem
+5,2024-09-27 22:36:43.169679,2024-09-27 22:36:44.958878,Send confirmation message to user,BookingSystem
+5,2024-09-27 22:36:44.958878,2024-09-27 22:36:46.236875,Receive confirmation,David
+6,2024-09-27 22:36:02.924517,2024-09-27 22:36:07.648375,Browse attraction page,Eve
+6,2024-09-27 22:36:07.648375,2024-09-27 22:36:12.486734,Response attraction information to user,VisitorInformationSystem
+6,2024-09-27 22:36:12.486734,2024-09-27 22:36:15.409687,Click specific attraction book now button,Eve
+6,2024-09-27 22:36:15.409687,2024-09-27 22:36:20.048430,Response tour information to user,BookingSystem
+6,2024-09-27 22:36:20.048430,2024-09-27 22:36:22.731265,View specific tour details,Eve
+6,2024-09-27 22:36:22.731265,2024-09-27 22:36:24.724720,Fill personal information and click book button,Eve
+6,2024-09-27 22:36:24.724720,2024-09-27 22:36:27.596363,Validate user input,BookingSystem
+6,2024-09-27 22:36:27.596363,2024-09-27 22:36:30.462380,Check availability,InventorySystem
+6,2024-09-27 22:36:30.462380,2024-09-27 22:36:32.454988,Create an order and return an order id to user,BookingSystem
+6,2024-09-27 22:36:32.454988,2024-09-27 22:36:34.672002,Confirm and pay,Eve
+6,2024-09-27 22:36:34.672002,2024-09-27 22:36:36.743731,Validate user payment information and process payment,PaymentGateway
+6,2024-09-27 22:36:36.743731,2024-09-27 22:36:41.134530,Update inventory,InventorySystem
+6,2024-09-27 22:36:41.134530,2024-09-27 22:36:44.177631,Send confirmation message to user,BookingSystem
+6,2024-09-27 22:36:44.177631,2024-09-27 22:36:45.243639,Receive confirmation,Eve
+7,2024-09-27 22:36:02.924524,2024-09-27 22:36:07.663304,Search for attraction,Alice
+7,2024-09-27 22:36:07.663304,2024-09-27 22:36:09.825149,Response attraction information to user,VisitorInformationSystem
+7,2024-09-27 22:36:09.825149,2024-09-27 22:36:12.693424,Click specific attraction book now button,Alice
+7,2024-09-27 22:36:12.693424,2024-09-27 22:36:14.816969,Response tour information to user,BookingSystem
+7,2024-09-27 22:36:14.816969,2024-09-27 22:36:15.919243,View specific tour details,Alice
+7,2024-09-27 22:36:15.919243,2024-09-27 22:36:20.741654,Fill personal information and click book button,Alice
+7,2024-09-27 22:36:20.741654,2024-09-27 22:36:25.275637,Validate user input,BookingSystem
+7,2024-09-27 22:36:25.275637,2024-09-27 22:36:28.451074,Check availability,InventorySystem
+7,2024-09-27 22:36:28.451074,2024-09-27 22:36:29.767635,Create an order and return an order id to user,BookingSystem
+7,2024-09-27 22:36:29.767635,2024-09-27 22:36:33.963731,Confirm and pay,Alice
+7,2024-09-27 22:36:33.963731,2024-09-27 22:36:37.987796,Validate user payment information and process payment,PaymentGateway
+7,2024-09-27 22:36:37.987796,2024-09-27 22:36:41.172711,Update inventory,InventorySystem
+7,2024-09-27 22:36:41.172711,2024-09-27 22:36:42.534203,Send confirmation message to user,BookingSystem
+7,2024-09-27 22:36:42.534203,2024-09-27 22:36:47.362262,Receive confirmation,Alice
+8,2024-09-27 22:36:02.924532,2024-09-27 22:36:05.734718,Browse attraction page,Alice
+8,2024-09-27 22:36:05.734718,2024-09-27 22:36:08.865845,Response attraction information to user,VisitorInformationSystem
+8,2024-09-27 22:36:08.865845,2024-09-27 22:36:13.732148,Click specific attraction book now button,Alice
+8,2024-09-27 22:36:13.732148,2024-09-27 22:36:16.042800,Response tour information to user,BookingSystem
+8,2024-09-27 22:36:16.042800,2024-09-27 22:36:19.836601,View specific tour details,Alice
+8,2024-09-27 22:36:19.836601,2024-09-27 22:36:21.081359,Fill personal information and click book button,Alice
+8,2024-09-27 22:36:21.081359,2024-09-27 22:36:24.904268,Validate user input,BookingSystem
+8,2024-09-27 22:36:24.904268,2024-09-27 22:36:27.020639,Check availability,InventorySystem
+8,2024-09-27 22:36:27.020639,2024-09-27 22:36:31.404752,Create an order and return an order id to user,BookingSystem
+8,2024-09-27 22:36:31.404752,2024-09-27 22:36:34.908650,Confirm and pay,Alice
+8,2024-09-27 22:36:34.908650,2024-09-27 22:36:36.359812,Validate user payment information and process payment,PaymentGateway
+8,2024-09-27 22:36:36.359812,2024-09-27 22:36:39.345331,Update inventory,InventorySystem
+8,2024-09-27 22:36:39.345331,2024-09-27 22:36:43.256345,Send confirmation message to user,BookingSystem
+8,2024-09-27 22:36:43.256345,2024-09-27 22:36:46.525397,Receive confirmation,Alice
+9,2024-09-27 22:36:02.924539,2024-09-27 22:36:04.466544,Browse attraction page,Eve
+9,2024-09-27 22:36:04.466544,2024-09-27 22:36:06.373276,Response attraction information to user,VisitorInformationSystem
+9,2024-09-27 22:36:06.373276,2024-09-27 22:36:09.417309,Click specific attraction book now button,Eve
+9,2024-09-27 22:36:09.417309,2024-09-27 22:36:10.575620,Response tour information to user,BookingSystem
+9,2024-09-27 22:36:10.575620,2024-09-27 22:36:15.249357,View specific tour details,Eve
+9,2024-09-27 22:36:15.249357,2024-09-27 22:36:19.619140,Fill personal information and click book button,Eve
+9,2024-09-27 22:36:19.619140,2024-09-27 22:36:23.739926,Validate user input,BookingSystem
+9,2024-09-27 22:36:23.739926,2024-09-27 22:36:25.670966,Check availability,InventorySystem
+9,2024-09-27 22:36:25.670966,2024-09-27 22:36:29.045797,Create an order and return an order id to user,BookingSystem
+9,2024-09-27 22:36:29.045797,2024-09-27 22:36:30.190308,Confirm and pay,Eve
+9,2024-09-27 22:36:30.190308,2024-09-27 22:36:34.922238,Validate user payment information and process payment,PaymentGateway
+9,2024-09-27 22:36:34.922238,2024-09-27 22:36:39.443123,Update inventory,InventorySystem
+9,2024-09-27 22:36:39.443123,2024-09-27 22:36:43.953254,Send confirmation message to user,BookingSystem
+9,2024-09-27 22:36:43.953254,2024-09-27 22:36:45.322769,Receive confirmation,Eve
+10,2024-09-27 22:36:02.924550,2024-09-27 22:36:05.961328,Browse attraction page,Bob
+10,2024-09-27 22:36:05.961328,2024-09-27 22:36:10.217742,Response attraction information to user,VisitorInformationSystem
+10,2024-09-27 22:36:10.217742,2024-09-27 22:36:12.009126,Click specific attraction book now button,Bob
+10,2024-09-27 22:36:12.009126,2024-09-27 22:36:13.273283,Response tour information to user,BookingSystem
+10,2024-09-27 22:36:13.273283,2024-09-27 22:36:17.797063,View specific tour details,Bob
+10,2024-09-27 22:36:17.797063,2024-09-27 22:36:21.379935,Fill personal information and click book button,Bob
+10,2024-09-27 22:36:21.379935,2024-09-27 22:36:26.304325,Validate user input,BookingSystem
+10,2024-09-27 22:36:26.304325,2024-09-27 22:36:29.645935,Check availability,InventorySystem
+10,2024-09-27 22:36:29.645935,2024-09-27 22:36:32.166256,Create an order and return an order id to user,BookingSystem
+10,2024-09-27 22:36:32.166256,2024-09-27 22:36:33.667327,Confirm and pay,Bob
+10,2024-09-27 22:36:33.667327,2024-09-27 22:36:33.667327,Process terminated: Payment failure,PaymentGateway
+11,2024-09-27 22:36:02.924556,2024-09-27 22:36:06.277193,Browse attraction page,David
+11,2024-09-27 22:36:06.277193,2024-09-27 22:36:07.821127,Response attraction information to user,VisitorInformationSystem
+11,2024-09-27 22:36:07.821127,2024-09-27 22:36:11.227102,Click specific attraction book now button,David
+11,2024-09-27 22:36:11.227102,2024-09-27 22:36:16.134840,Response tour information to user,BookingSystem
+11,2024-09-27 22:36:16.134840,2024-09-27 22:36:19.822659,View specific tour details,David
+11,2024-09-27 22:36:19.822659,2024-09-27 22:36:21.101875,Fill personal information and click book button,David
+11,2024-09-27 22:36:21.101875,2024-09-27 22:36:24.903286,Validate user input,BookingSystem
+11,2024-09-27 22:36:24.903286,2024-09-27 22:36:27.169822,Check availability,InventorySystem
+11,2024-09-27 22:36:27.169822,2024-09-27 22:36:29.295815,Create an order and return an order id to user,BookingSystem
+11,2024-09-27 22:36:29.295815,2024-09-27 22:36:31.409932,Confirm and pay,David
+11,2024-09-27 22:36:31.409932,2024-09-27 22:36:32.735124,Validate user payment information and process payment,PaymentGateway
+11,2024-09-27 22:36:32.735124,2024-09-27 22:36:35.326696,Update inventory,InventorySystem
+11,2024-09-27 22:36:35.326696,2024-09-27 22:36:38.040094,Send confirmation message to user,BookingSystem
+11,2024-09-27 22:36:38.040094,2024-09-27 22:36:39.830114,Receive confirmation,David
+12,2024-09-27 22:36:02.924563,2024-09-27 22:36:03.931209,Browse attraction page,Eve
+12,2024-09-27 22:36:03.931209,2024-09-27 22:36:05.500139,Response attraction information to user,VisitorInformationSystem
+12,2024-09-27 22:36:05.500139,2024-09-27 22:36:09.186156,Click specific attraction book now button,Eve
+12,2024-09-27 22:36:09.186156,2024-09-27 22:36:12.869292,Response tour information to user,BookingSystem
+12,2024-09-27 22:36:12.869292,2024-09-27 22:36:17.486499,View specific tour details,Eve
+12,2024-09-27 22:36:17.486499,2024-09-27 22:36:20.244666,Fill personal information and click book button,Eve
+12,2024-09-27 22:36:20.244666,2024-09-27 22:36:24.903287,Validate user input,BookingSystem
+12,2024-09-27 22:36:24.903287,2024-09-27 22:36:29.358984,Check availability,InventorySystem
+12,2024-09-27 22:36:29.358984,2024-09-27 22:36:31.033424,Create an order and return an order id to user,BookingSystem
+12,2024-09-27 22:36:31.033424,2024-09-27 22:36:32.039353,Confirm and pay,Eve
+12,2024-09-27 22:36:32.039353,2024-09-27 22:36:32.039353,Process terminated: Payment failure,PaymentGateway
+13,2024-09-27 22:36:02.924569,2024-09-27 22:36:07.591712,Browse attraction page,David
+13,2024-09-27 22:36:07.591712,2024-09-27 22:36:11.793994,Response attraction information to user,VisitorInformationSystem
+13,2024-09-27 22:36:11.793994,2024-09-27 22:36:16.695797,Click specific attraction book now button,David
+13,2024-09-27 22:36:16.695797,2024-09-27 22:36:19.515133,Response tour information to user,BookingSystem
+13,2024-09-27 22:36:19.515133,2024-09-27 22:36:23.991600,View specific tour details,David
+13,2024-09-27 22:36:23.991600,2024-09-27 22:36:26.847318,Fill personal information and click book button,David
+13,2024-09-27 22:36:26.847318,2024-09-27 22:36:31.038414,Validate user input,BookingSystem
+13,2024-09-27 22:36:31.038414,2024-09-27 22:36:33.450431,Check availability,InventorySystem
+13,2024-09-27 22:36:33.450431,2024-09-27 22:36:36.886469,Create an order and return an order id to user,BookingSystem
+13,2024-09-27 22:36:36.886469,2024-09-27 22:36:41.722250,Confirm and pay,David
+13,2024-09-27 22:36:41.722250,2024-09-27 22:36:45.971675,Validate user payment information and process payment,PaymentGateway
+13,2024-09-27 22:36:45.971675,2024-09-27 22:36:47.217183,Update inventory,InventorySystem
+13,2024-09-27 22:36:47.217183,2024-09-27 22:36:51.025344,Send confirmation message to user,BookingSystem
+13,2024-09-27 22:36:51.025344,2024-09-27 22:36:52.368856,Receive confirmation,David
+14,2024-09-27 22:36:02.924580,2024-09-27 22:36:07.903048,Browse attraction page,David
+14,2024-09-27 22:36:07.903048,2024-09-27 22:36:10.394785,Response attraction information to user,VisitorInformationSystem
+14,2024-09-27 22:36:10.394785,2024-09-27 22:36:12.433478,Click specific attraction book now button,David
+14,2024-09-27 22:36:12.433478,2024-09-27 22:36:14.731386,Response tour information to user,BookingSystem
+14,2024-09-27 22:36:14.731386,2024-09-27 22:36:19.129904,View specific tour details,David
+14,2024-09-27 22:36:19.129904,2024-09-27 22:36:22.475206,Fill personal information and click book button,David
+14,2024-09-27 22:36:22.475206,2024-09-27 22:36:24.469921,Validate user input,BookingSystem
+14,2024-09-27 22:36:24.469921,2024-09-27 22:36:26.238370,Check availability,InventorySystem
+14,2024-09-27 22:36:26.238370,2024-09-27 22:36:29.534200,Create an order and return an order id to user,BookingSystem
+14,2024-09-27 22:36:29.534200,2024-09-27 22:36:33.225960,Confirm and pay,David
+14,2024-09-27 22:36:33.225960,2024-09-27 22:36:36.074920,Validate user payment information and process payment,PaymentGateway
+14,2024-09-27 22:36:36.074920,2024-09-27 22:36:40.476189,Update inventory,InventorySystem
+14,2024-09-27 22:36:40.476189,2024-09-27 22:36:45.291523,Send confirmation message to user,BookingSystem
+14,2024-09-27 22:36:45.291523,2024-09-27 22:36:46.537944,Receive confirmation,David
+15,2024-09-27 22:36:02.924591,2024-09-27 22:36:06.545407,Browse attraction page,Eve
+15,2024-09-27 22:36:06.545407,2024-09-27 22:36:11.497846,Response attraction information to user,VisitorInformationSystem
+15,2024-09-27 22:36:11.497846,2024-09-27 22:36:14.001059,Click specific attraction book now button,Eve
+15,2024-09-27 22:36:14.001059,2024-09-27 22:36:15.441080,Response tour information to user,BookingSystem
+15,2024-09-27 22:36:15.441080,2024-09-27 22:36:18.043431,View specific tour details,Eve
+15,2024-09-27 22:36:18.043431,2024-09-27 22:36:20.898276,Fill personal information and click book button,Eve
+15,2024-09-27 22:36:20.898276,2024-09-27 22:36:25.832790,Validate user input,BookingSystem
+15,2024-09-27 22:36:25.832790,2024-09-27 22:36:27.110786,Check availability,InventorySystem
+15,2024-09-27 22:36:27.110786,2024-09-27 22:36:30.736527,Create an order and return an order id to user,BookingSystem
+15,2024-09-27 22:36:30.736527,2024-09-27 22:36:35.079076,Confirm and pay,Eve
+15,2024-09-27 22:36:35.079076,2024-09-27 22:36:39.468600,Validate user payment information and process payment,PaymentGateway
+15,2024-09-27 22:36:39.468600,2024-09-27 22:36:43.591351,Update inventory,InventorySystem
+15,2024-09-27 22:36:43.591351,2024-09-27 22:36:48.051227,Send confirmation message to user,BookingSystem
+15,2024-09-27 22:36:48.051227,2024-09-27 22:36:51.187811,Receive confirmation,Eve
+16,2024-09-27 22:36:02.924598,2024-09-27 22:36:06.890638,Search for attraction,Alice
+16,2024-09-27 22:36:06.890638,2024-09-27 22:36:08.169046,Response attraction information to user,VisitorInformationSystem
+16,2024-09-27 22:36:08.169046,2024-09-27 22:36:11.111467,Click specific attraction book now button,Alice
+16,2024-09-27 22:36:11.111467,2024-09-27 22:36:14.201171,Response tour information to user,BookingSystem
+16,2024-09-27 22:36:14.201171,2024-09-27 22:36:15.486911,View specific tour details,Alice
+16,2024-09-27 22:36:15.486911,2024-09-27 22:36:16.700181,Fill personal information and click book button,Alice
+16,2024-09-27 22:36:16.700181,2024-09-27 22:36:20.395474,Validate user input,BookingSystem
+16,2024-09-27 22:36:20.395474,2024-09-27 22:36:22.760497,Check availability,InventorySystem
+16,2024-09-27 22:36:22.760497,2024-09-27 22:36:25.190765,Create an order and return an order id to user,BookingSystem
+16,2024-09-27 22:36:25.190765,2024-09-27 22:36:26.389076,Confirm and pay,Alice
+16,2024-09-27 22:36:26.389076,2024-09-27 22:36:26.389076,Process terminated: Payment failure,PaymentGateway
+17,2024-09-27 22:36:02.924603,2024-09-27 22:36:04.467072,Browse attraction page,David
+17,2024-09-27 22:36:04.467072,2024-09-27 22:36:08.703486,Response attraction information to user,VisitorInformationSystem
+17,2024-09-27 22:36:08.703486,2024-09-27 22:36:11.136522,Click specific attraction book now button,David
+17,2024-09-27 22:36:11.136522,2024-09-27 22:36:14.750343,Response tour information to user,BookingSystem
+17,2024-09-27 22:36:14.750343,2024-09-27 22:36:18.211457,View specific tour details,David
+17,2024-09-27 22:36:18.211457,2024-09-27 22:36:21.105709,Fill personal information and click book button,David
+17,2024-09-27 22:36:21.105709,2024-09-27 22:36:23.325673,Validate user input,BookingSystem
+17,2024-09-27 22:36:23.325673,2024-09-27 22:36:26.236784,Check availability,InventorySystem
+17,2024-09-27 22:36:26.236784,2024-09-27 22:36:28.561788,Create an order and return an order id to user,BookingSystem
+17,2024-09-27 22:36:28.561788,2024-09-27 22:36:32.178253,Confirm and pay,David
+17,2024-09-27 22:36:32.178253,2024-09-27 22:36:34.426047,Validate user payment information and process payment,PaymentGateway
+17,2024-09-27 22:36:34.426047,2024-09-27 22:36:39.091228,Update inventory,InventorySystem
+17,2024-09-27 22:36:39.091228,2024-09-27 22:36:42.122279,Send confirmation message to user,BookingSystem
+17,2024-09-27 22:36:42.122279,2024-09-27 22:36:43.563586,Receive confirmation,David
+18,2024-09-27 22:36:02.924612,2024-09-27 22:36:05.002285,Browse attraction page,Alice
+18,2024-09-27 22:36:05.002285,2024-09-27 22:36:05.002285,Process terminated: User exited early,Alice
+19,2024-09-27 22:36:02.924614,2024-09-27 22:36:07.101871,Browse attraction page,David
+19,2024-09-27 22:36:07.101871,2024-09-27 22:36:10.125302,Response attraction information to user,VisitorInformationSystem
+19,2024-09-27 22:36:10.125302,2024-09-27 22:36:12.499002,Click specific attraction book now button,David
+19,2024-09-27 22:36:12.499002,2024-09-27 22:36:14.066557,Response tour information to user,BookingSystem
+19,2024-09-27 22:36:14.066557,2024-09-27 22:36:18.117386,View specific tour details,David
+19,2024-09-27 22:36:18.117386,2024-09-27 22:36:20.999909,Fill personal information and click book button,David
+19,2024-09-27 22:36:20.999909,2024-09-27 22:36:23.639515,Validate user input,BookingSystem
+19,2024-09-27 22:36:23.639515,2024-09-27 22:36:24.834982,Check availability,InventorySystem
+19,2024-09-27 22:36:24.834982,2024-09-27 22:36:26.721945,Create an order and return an order id to user,BookingSystem
+19,2024-09-27 22:36:26.721945,2024-09-27 22:36:30.552733,Confirm and pay,David
+19,2024-09-27 22:36:30.552733,2024-09-27 22:36:31.770266,Validate user payment information and process payment,PaymentGateway
+19,2024-09-27 22:36:31.770266,2024-09-27 22:36:34.568303,Update inventory,InventorySystem
+19,2024-09-27 22:36:34.568303,2024-09-27 22:36:36.338311,Send confirmation message to user,BookingSystem
+19,2024-09-27 22:36:36.338311,2024-09-27 22:36:37.647129,Receive confirmation,David
+20,2024-09-27 22:36:02.924621,2024-09-27 22:36:04.693509,Browse attraction page,Bob
+20,2024-09-27 22:36:04.693509,2024-09-27 22:36:09.538890,Response attraction information to user,VisitorInformationSystem
+20,2024-09-27 22:36:09.538890,2024-09-27 22:36:13.076666,Click specific attraction book now button,Bob
+20,2024-09-27 22:36:13.076666,2024-09-27 22:36:17.338783,Response tour information to user,BookingSystem
+20,2024-09-27 22:36:17.338783,2024-09-27 22:36:21.419093,View specific tour details,Bob
+20,2024-09-27 22:36:21.419093,2024-09-27 22:36:24.152828,Fill personal information and click book button,Bob
+20,2024-09-27 22:36:24.152828,2024-09-27 22:36:25.476025,Validate user input,BookingSystem
+20,2024-09-27 22:36:25.476025,2024-09-27 22:36:26.983412,Check availability,InventorySystem
+20,2024-09-27 22:36:26.983412,2024-09-27 22:36:31.399880,Create an order and return an order id to user,BookingSystem
+20,2024-09-27 22:36:31.399880,2024-09-27 22:36:34.057269,Confirm and pay,Bob
+20,2024-09-27 22:36:34.057269,2024-09-27 22:36:37.791552,Validate user payment information and process payment,PaymentGateway
+20,2024-09-27 22:36:37.791552,2024-09-27 22:36:40.203838,Update inventory,InventorySystem
+20,2024-09-27 22:36:40.203838,2024-09-27 22:36:43.502161,Send confirmation message to user,BookingSystem
+20,2024-09-27 22:36:43.502161,2024-09-27 22:36:44.759092,Receive confirmation,Bob
+21,2024-09-27 22:36:02.924628,2024-09-27 22:36:05.262419,Browse attraction page,Charlie
+21,2024-09-27 22:36:05.262419,2024-09-27 22:36:09.894581,Response attraction information to user,VisitorInformationSystem
+21,2024-09-27 22:36:09.894581,2024-09-27 22:36:12.034116,Click specific attraction book now button,Charlie
+21,2024-09-27 22:36:12.034116,2024-09-27 22:36:15.210069,Response tour information to user,BookingSystem
+21,2024-09-27 22:36:15.210069,2024-09-27 22:36:18.787001,View specific tour details,Charlie
+21,2024-09-27 22:36:18.787001,2024-09-27 22:36:20.244767,Fill personal information and click book button,Charlie
+21,2024-09-27 22:36:20.244767,2024-09-27 22:36:24.977985,Validate user input,BookingSystem
+21,2024-09-27 22:36:24.977985,2024-09-27 22:36:28.699087,Check availability,InventorySystem
+21,2024-09-27 22:36:28.699087,2024-09-27 22:36:30.279761,Create an order and return an order id to user,BookingSystem
+21,2024-09-27 22:36:30.279761,2024-09-27 22:36:32.562379,Confirm and pay,Charlie
+21,2024-09-27 22:36:32.562379,2024-09-27 22:36:35.234279,Validate user payment information and process payment,PaymentGateway
+21,2024-09-27 22:36:35.234279,2024-09-27 22:36:38.435301,Update inventory,InventorySystem
+21,2024-09-27 22:36:38.435301,2024-09-27 22:36:40.997198,Send confirmation message to user,BookingSystem
+21,2024-09-27 22:36:40.997198,2024-09-27 22:36:45.968142,Receive confirmation,Charlie
+22,2024-09-27 22:36:02.924635,2024-09-27 22:36:05.864159,Browse attraction page,David
+22,2024-09-27 22:36:05.864159,2024-09-27 22:36:09.076543,Response attraction information to user,VisitorInformationSystem
+22,2024-09-27 22:36:09.076543,2024-09-27 22:36:10.166936,Click specific attraction book now button,David
+22,2024-09-27 22:36:10.166936,2024-09-27 22:36:13.761345,Response tour information to user,BookingSystem
+22,2024-09-27 22:36:13.761345,2024-09-27 22:36:17.825300,View specific tour details,David
+22,2024-09-27 22:36:17.825300,2024-09-27 22:36:19.108641,Fill personal information and click book button,David
+22,2024-09-27 22:36:19.108641,2024-09-27 22:36:22.292476,Validate user input,BookingSystem
+22,2024-09-27 22:36:22.292476,2024-09-27 22:36:25.570161,Check availability,InventorySystem
+22,2024-09-27 22:36:25.570161,2024-09-27 22:36:30.309243,Create an order and return an order id to user,BookingSystem
+22,2024-09-27 22:36:30.309243,2024-09-27 22:36:35.306705,Confirm and pay,David
+22,2024-09-27 22:36:35.306705,2024-09-27 22:36:40.024230,Validate user payment information and process payment,PaymentGateway
+22,2024-09-27 22:36:40.024230,2024-09-27 22:36:41.100497,Update inventory,InventorySystem
+22,2024-09-27 22:36:41.100497,2024-09-27 22:36:43.044889,Send confirmation message to user,BookingSystem
+22,2024-09-27 22:36:43.044889,2024-09-27 22:36:46.308087,Receive confirmation,David
+23,2024-09-27 22:36:02.924642,2024-09-27 22:36:04.934251,Browse attraction page,Eve
+23,2024-09-27 22:36:04.934251,2024-09-27 22:36:09.742117,Response attraction information to user,VisitorInformationSystem
+23,2024-09-27 22:36:09.742117,2024-09-27 22:36:14.014853,Click specific attraction book now button,Eve
+23,2024-09-27 22:36:14.014853,2024-09-27 22:36:18.371069,Response tour information to user,BookingSystem
+23,2024-09-27 22:36:18.371069,2024-09-27 22:36:21.308048,View specific tour details,Eve
+23,2024-09-27 22:36:21.308048,2024-09-27 22:36:22.887077,Fill personal information and click book button,Eve
+23,2024-09-27 22:36:22.887077,2024-09-27 22:36:26.522026,Validate user input,BookingSystem
+23,2024-09-27 22:36:26.522026,2024-09-27 22:36:28.618284,Check availability,InventorySystem
+23,2024-09-27 22:36:28.618284,2024-09-27 22:36:32.851654,Create an order and return an order id to user,BookingSystem
+23,2024-09-27 22:36:32.851654,2024-09-27 22:36:34.588521,Confirm and pay,Eve
+23,2024-09-27 22:36:34.588521,2024-09-27 22:36:38.498135,Validate user payment information and process payment,PaymentGateway
+23,2024-09-27 22:36:38.498135,2024-09-27 22:36:39.758656,Update inventory,InventorySystem
+23,2024-09-27 22:36:39.758656,2024-09-27 22:36:41.280833,Send confirmation message to user,BookingSystem
+23,2024-09-27 22:36:41.280833,2024-09-27 22:36:42.601512,Receive confirmation,Eve
+24,2024-09-27 22:36:02.924653,2024-09-27 22:36:05.854276,Search for attraction,David
+24,2024-09-27 22:36:05.854276,2024-09-27 22:36:08.294267,Response attraction information to user,VisitorInformationSystem
+24,2024-09-27 22:36:08.294267,2024-09-27 22:36:10.660679,Click specific attraction book now button,David
+24,2024-09-27 22:36:10.660679,2024-09-27 22:36:11.742166,Response tour information to user,BookingSystem
+24,2024-09-27 22:36:11.742166,2024-09-27 22:36:13.336174,View specific tour details,David
+24,2024-09-27 22:36:13.336174,2024-09-27 22:36:17.523192,Fill personal information and click book button,David
+24,2024-09-27 22:36:17.523192,2024-09-27 22:36:22.375511,Validate user input,BookingSystem
+24,2024-09-27 22:36:22.375511,2024-09-27 22:36:24.419374,Check availability,InventorySystem
+24,2024-09-27 22:36:24.419374,2024-09-27 22:36:27.287328,Create an order and return an order id to user,BookingSystem
+24,2024-09-27 22:36:27.287328,2024-09-27 22:36:29.750094,Confirm and pay,David
+24,2024-09-27 22:36:29.750094,2024-09-27 22:36:29.750094,Process terminated: Payment failure,PaymentGateway
+25,2024-09-27 22:36:02.924662,2024-09-27 22:36:05.013884,Browse attraction page,Alice
+25,2024-09-27 22:36:05.013884,2024-09-27 22:36:07.189556,Response attraction information to user,VisitorInformationSystem
+25,2024-09-27 22:36:07.189556,2024-09-27 22:36:11.666726,Click specific attraction book now button,Alice
+25,2024-09-27 22:36:11.666726,2024-09-27 22:36:13.547111,Response tour information to user,BookingSystem
+25,2024-09-27 22:36:13.547111,2024-09-27 22:36:15.105005,View specific tour details,Alice
+25,2024-09-27 22:36:15.105005,2024-09-27 22:36:16.402178,Fill personal information and click book button,Alice
+25,2024-09-27 22:36:16.402178,2024-09-27 22:36:21.155740,Validate user input,BookingSystem
+25,2024-09-27 22:36:21.155740,2024-09-27 22:36:25.532347,Check availability,InventorySystem
+25,2024-09-27 22:36:25.532347,2024-09-27 22:36:28.018871,Create an order and return an order id to user,BookingSystem
+25,2024-09-27 22:36:28.018871,2024-09-27 22:36:30.726247,Confirm and pay,Alice
+25,2024-09-27 22:36:30.726247,2024-09-27 22:36:33.713863,Validate user payment information and process payment,PaymentGateway
+25,2024-09-27 22:36:33.713863,2024-09-27 22:36:35.798526,Update inventory,InventorySystem
+25,2024-09-27 22:36:35.798526,2024-09-27 22:36:40.578201,Send confirmation message to user,BookingSystem
+25,2024-09-27 22:36:40.578201,2024-09-27 22:36:45.515102,Receive confirmation,Alice
+26,2024-09-27 22:36:02.924669,2024-09-27 22:36:05.410216,Search for attraction,Bob
+26,2024-09-27 22:36:05.410216,2024-09-27 22:36:09.104077,Response attraction information to user,VisitorInformationSystem
+26,2024-09-27 22:36:09.104077,2024-09-27 22:36:12.008800,Click specific attraction book now button,Bob
+26,2024-09-27 22:36:12.008800,2024-09-27 22:36:15.337621,Response tour information to user,BookingSystem
+26,2024-09-27 22:36:15.337621,2024-09-27 22:36:18.475299,View specific tour details,Bob
+26,2024-09-27 22:36:18.475299,2024-09-27 22:36:20.733658,Fill personal information and click book button,Bob
+26,2024-09-27 22:36:20.733658,2024-09-27 22:36:22.421671,Validate user input,BookingSystem
+26,2024-09-27 22:36:22.421671,2024-09-27 22:36:23.934245,Check availability,InventorySystem
+26,2024-09-27 22:36:23.934245,2024-09-27 22:36:28.745607,Create an order and return an order id to user,BookingSystem
+26,2024-09-27 22:36:28.745607,2024-09-27 22:36:31.798551,Confirm and pay,Bob
+26,2024-09-27 22:36:31.798551,2024-09-27 22:36:31.798551,Process terminated: Payment failure,PaymentGateway
+27,2024-09-27 22:36:02.924674,2024-09-27 22:36:04.202533,Browse attraction page,Eve
+27,2024-09-27 22:36:04.202533,2024-09-27 22:36:08.389091,Response attraction information to user,VisitorInformationSystem
+27,2024-09-27 22:36:08.389091,2024-09-27 22:36:11.638355,Click specific attraction book now button,Eve
+27,2024-09-27 22:36:11.638355,2024-09-27 22:36:16.041398,Response tour information to user,BookingSystem
+27,2024-09-27 22:36:16.041398,2024-09-27 22:36:18.233893,View specific tour details,Eve
+27,2024-09-27 22:36:18.233893,2024-09-27 22:36:19.860640,Fill personal information and click book button,Eve
+27,2024-09-27 22:36:19.860640,2024-09-27 22:36:22.324260,Validate user input,BookingSystem
+27,2024-09-27 22:36:22.324260,2024-09-27 22:36:27.252140,Check availability,InventorySystem
+27,2024-09-27 22:36:27.252140,2024-09-27 22:36:31.657104,Create an order and return an order id to user,BookingSystem
+27,2024-09-27 22:36:31.657104,2024-09-27 22:36:35.130049,Confirm and pay,Eve
+27,2024-09-27 22:36:35.130049,2024-09-27 22:36:39.934617,Validate user payment information and process payment,PaymentGateway
+27,2024-09-27 22:36:39.934617,2024-09-27 22:36:43.552026,Update inventory,InventorySystem
+27,2024-09-27 22:36:43.552026,2024-09-27 22:36:47.391512,Send confirmation message to user,BookingSystem
+27,2024-09-27 22:36:47.391512,2024-09-27 22:36:50.458880,Receive confirmation,Eve
+28,2024-09-27 22:36:02.924681,2024-09-27 22:36:05.797462,Search for attraction,Charlie
+28,2024-09-27 22:36:05.797462,2024-09-27 22:36:10.337786,Response attraction information to user,VisitorInformationSystem
+28,2024-09-27 22:36:10.337786,2024-09-27 22:36:14.196345,Click specific attraction book now button,Charlie
+28,2024-09-27 22:36:14.196345,2024-09-27 22:36:17.322567,Response tour information to user,BookingSystem
+28,2024-09-27 22:36:17.322567,2024-09-27 22:36:21.811907,View specific tour details,Charlie
+28,2024-09-27 22:36:21.811907,2024-09-27 22:36:25.893798,Fill personal information and click book button,Charlie
+28,2024-09-27 22:36:25.893798,2024-09-27 22:36:27.733959,Validate user input,BookingSystem
+28,2024-09-27 22:36:27.733959,2024-09-27 22:36:31.854463,Check availability,InventorySystem
+28,2024-09-27 22:36:31.854463,2024-09-27 22:36:35.437672,Create an order and return an order id to user,BookingSystem
+28,2024-09-27 22:36:35.437672,2024-09-27 22:36:39.207919,Confirm and pay,Charlie
+28,2024-09-27 22:36:39.207919,2024-09-27 22:36:44.044993,Validate user payment information and process payment,PaymentGateway
+28,2024-09-27 22:36:44.044993,2024-09-27 22:36:49.008850,Update inventory,InventorySystem
+28,2024-09-27 22:36:49.008850,2024-09-27 22:36:53.634625,Send confirmation message to user,BookingSystem
+28,2024-09-27 22:36:53.634625,2024-09-27 22:36:57.856855,Receive confirmation,Charlie
+29,2024-09-27 22:36:02.924688,2024-09-27 22:36:04.659194,Search for attraction,Bob
+29,2024-09-27 22:36:04.659194,2024-09-27 22:36:06.002351,Response attraction information to user,VisitorInformationSystem
+29,2024-09-27 22:36:06.002351,2024-09-27 22:36:10.164433,Click specific attraction book now button,Bob
+29,2024-09-27 22:36:10.164433,2024-09-27 22:36:11.859545,Response tour information to user,BookingSystem
+29,2024-09-27 22:36:11.859545,2024-09-27 22:36:15.195050,View specific tour details,Bob
+29,2024-09-27 22:36:15.195050,2024-09-27 22:36:17.324319,Fill personal information and click book button,Bob
+29,2024-09-27 22:36:17.324319,2024-09-27 22:36:20.037612,Validate user input,BookingSystem
+29,2024-09-27 22:36:20.037612,2024-09-27 22:36:23.821850,Check availability,InventorySystem
+29,2024-09-27 22:36:23.821850,2024-09-27 22:36:24.888565,Create an order and return an order id to user,BookingSystem
+29,2024-09-27 22:36:24.888565,2024-09-27 22:36:29.284523,Confirm and pay,Bob
+29,2024-09-27 22:36:29.284523,2024-09-27 22:36:33.892156,Validate user payment information and process payment,PaymentGateway
+29,2024-09-27 22:36:33.892156,2024-09-27 22:36:35.001642,Update inventory,InventorySystem
+29,2024-09-27 22:36:35.001642,2024-09-27 22:36:36.031027,Send confirmation message to user,BookingSystem
+29,2024-09-27 22:36:36.031027,2024-09-27 22:36:37.444264,Receive confirmation,Bob
+30,2024-09-27 22:36:02.924696,2024-09-27 22:36:05.918394,Search for attraction,Alice
+30,2024-09-27 22:36:05.918394,2024-09-27 22:36:08.832685,Response attraction information to user,VisitorInformationSystem
+30,2024-09-27 22:36:08.832685,2024-09-27 22:36:13.537820,Click specific attraction book now button,Alice
+30,2024-09-27 22:36:13.537820,2024-09-27 22:36:16.088475,Response tour information to user,BookingSystem
+30,2024-09-27 22:36:16.088475,2024-09-27 22:36:18.990295,View specific tour details,Alice
+30,2024-09-27 22:36:18.990295,2024-09-27 22:36:20.574022,Fill personal information and click book button,Alice
+30,2024-09-27 22:36:20.574022,2024-09-27 22:36:22.479622,Validate user input,BookingSystem
+30,2024-09-27 22:36:22.479622,2024-09-27 22:36:27.418391,Check availability,InventorySystem
+30,2024-09-27 22:36:27.418391,2024-09-27 22:36:28.991527,Create an order and return an order id to user,BookingSystem
+30,2024-09-27 22:36:28.991527,2024-09-27 22:36:31.880685,Confirm and pay,Alice
+30,2024-09-27 22:36:31.880685,2024-09-27 22:36:36.087090,Validate user payment information and process payment,PaymentGateway
+30,2024-09-27 22:36:36.087090,2024-09-27 22:36:38.213468,Update inventory,InventorySystem
+30,2024-09-27 22:36:38.213468,2024-09-27 22:36:39.716526,Send confirmation message to user,BookingSystem
+30,2024-09-27 22:36:39.716526,2024-09-27 22:36:41.779818,Receive confirmation,Alice
+31,2024-09-27 22:36:02.924707,2024-09-27 22:36:07.778958,Search for attraction,Bob
+31,2024-09-27 22:36:07.778958,2024-09-27 22:36:11.049605,Response attraction information to user,VisitorInformationSystem
+31,2024-09-27 22:36:11.049605,2024-09-27 22:36:13.046197,Click specific attraction book now button,Bob
+31,2024-09-27 22:36:13.046197,2024-09-27 22:36:16.852053,Response tour information to user,BookingSystem
+31,2024-09-27 22:36:16.852053,2024-09-27 22:36:18.519188,View specific tour details,Bob
+31,2024-09-27 22:36:18.519188,2024-09-27 22:36:20.531297,Fill personal information and click book button,Bob
+31,2024-09-27 22:36:20.531297,2024-09-27 22:36:22.943936,Validate user input,BookingSystem
+31,2024-09-27 22:36:22.943936,2024-09-27 22:36:27.692473,Check availability,InventorySystem
+31,2024-09-27 22:36:27.692473,2024-09-27 22:36:32.581626,Create an order and return an order id to user,BookingSystem
+31,2024-09-27 22:36:32.581626,2024-09-27 22:36:36.581883,Confirm and pay,Bob
+31,2024-09-27 22:36:36.581883,2024-09-27 22:36:40.021900,Validate user payment information and process payment,PaymentGateway
+31,2024-09-27 22:36:40.021900,2024-09-27 22:36:41.139447,Update inventory,InventorySystem
+31,2024-09-27 22:36:41.139447,2024-09-27 22:36:45.396494,Send confirmation message to user,BookingSystem
+31,2024-09-27 22:36:45.396494,2024-09-27 22:36:46.605450,Receive confirmation,Bob
+32,2024-09-27 22:36:02.924715,2024-09-27 22:36:05.412416,Search for attraction,Bob
+32,2024-09-27 22:36:05.412416,2024-09-27 22:36:07.856109,Response attraction information to user,VisitorInformationSystem
+32,2024-09-27 22:36:07.856109,2024-09-27 22:36:09.951091,Click specific attraction book now button,Bob
+32,2024-09-27 22:36:09.951091,2024-09-27 22:36:14.644942,Response tour information to user,BookingSystem
+32,2024-09-27 22:36:14.644942,2024-09-27 22:36:18.409392,View specific tour details,Bob
+32,2024-09-27 22:36:18.409392,2024-09-27 22:36:19.496968,Fill personal information and click book button,Bob
+32,2024-09-27 22:36:19.496968,2024-09-27 22:36:24.474076,Validate user input,BookingSystem
+32,2024-09-27 22:36:24.474076,2024-09-27 22:36:26.661623,Check availability,InventorySystem
+32,2024-09-27 22:36:26.661623,2024-09-27 22:36:27.883385,Create an order and return an order id to user,BookingSystem
+32,2024-09-27 22:36:27.883385,2024-09-27 22:36:31.925248,Confirm and pay,Bob
+32,2024-09-27 22:36:31.925248,2024-09-27 22:36:36.041229,Validate user payment information and process payment,PaymentGateway
+32,2024-09-27 22:36:36.041229,2024-09-27 22:36:38.713273,Update inventory,InventorySystem
+32,2024-09-27 22:36:38.713273,2024-09-27 22:36:42.950238,Send confirmation message to user,BookingSystem
+32,2024-09-27 22:36:42.950238,2024-09-27 22:36:47.030981,Receive confirmation,Bob
+33,2024-09-27 22:36:02.924722,2024-09-27 22:36:06.518563,Browse attraction page,Charlie
+33,2024-09-27 22:36:06.518563,2024-09-27 22:36:06.518563,Process terminated: System failure,VisitorInformationSystem
+34,2024-09-27 22:36:02.924724,2024-09-27 22:36:07.240495,Browse attraction page,Alice
+34,2024-09-27 22:36:07.240495,2024-09-27 22:36:10.153185,Response attraction information to user,VisitorInformationSystem
+34,2024-09-27 22:36:10.153185,2024-09-27 22:36:11.309570,Click specific attraction book now button,Alice
+34,2024-09-27 22:36:11.309570,2024-09-27 22:36:15.509558,Response tour information to user,BookingSystem
+34,2024-09-27 22:36:15.509558,2024-09-27 22:36:18.015300,View specific tour details,Alice
+34,2024-09-27 22:36:18.015300,2024-09-27 22:36:21.897191,Fill personal information and click book button,Alice
+34,2024-09-27 22:36:21.897191,2024-09-27 22:36:24.514484,Validate user input,BookingSystem
+34,2024-09-27 22:36:24.514484,2024-09-27 22:36:26.845052,Check availability,InventorySystem
+34,2024-09-27 22:36:26.845052,2024-09-27 22:36:28.661783,Create an order and return an order id to user,BookingSystem
+34,2024-09-27 22:36:28.661783,2024-09-27 22:36:33.369074,Confirm and pay,Alice
+34,2024-09-27 22:36:33.369074,2024-09-27 22:36:35.337846,Validate user payment information and process payment,PaymentGateway
+34,2024-09-27 22:36:35.337846,2024-09-27 22:36:39.413601,Update inventory,InventorySystem
+34,2024-09-27 22:36:39.413601,2024-09-27 22:36:42.795355,Send confirmation message to user,BookingSystem
+34,2024-09-27 22:36:42.795355,2024-09-27 22:36:45.607782,Receive confirmation,Alice
+35,2024-09-27 22:36:02.924731,2024-09-27 22:36:04.697934,Search for attraction,David
+35,2024-09-27 22:36:04.697934,2024-09-27 22:36:06.410152,Response attraction information to user,VisitorInformationSystem
+35,2024-09-27 22:36:06.410152,2024-09-27 22:36:10.508735,Click specific attraction book now button,David
+35,2024-09-27 22:36:10.508735,2024-09-27 22:36:12.983237,Response tour information to user,BookingSystem
+35,2024-09-27 22:36:12.983237,2024-09-27 22:36:14.268035,View specific tour details,David
+35,2024-09-27 22:36:14.268035,2024-09-27 22:36:15.950250,Fill personal information and click book button,David
+35,2024-09-27 22:36:15.950250,2024-09-27 22:36:18.723215,Validate user input,BookingSystem
+35,2024-09-27 22:36:18.723215,2024-09-27 22:36:19.876037,Check availability,InventorySystem
+35,2024-09-27 22:36:19.876037,2024-09-27 22:36:23.585215,Create an order and return an order id to user,BookingSystem
+35,2024-09-27 22:36:23.585215,2024-09-27 22:36:25.635727,Confirm and pay,David
+35,2024-09-27 22:36:25.635727,2024-09-27 22:36:27.518509,Validate user payment information and process payment,PaymentGateway
+35,2024-09-27 22:36:27.518509,2024-09-27 22:36:30.643874,Update inventory,InventorySystem
+35,2024-09-27 22:36:30.643874,2024-09-27 22:36:34.025724,Send confirmation message to user,BookingSystem
+35,2024-09-27 22:36:34.025724,2024-09-27 22:36:35.814995,Receive confirmation,David
+36,2024-09-27 22:36:02.924738,2024-09-27 22:36:07.625463,Browse attraction page,Charlie
+36,2024-09-27 22:36:07.625463,2024-09-27 22:36:11.105670,Response attraction information to user,VisitorInformationSystem
+36,2024-09-27 22:36:11.105670,2024-09-27 22:36:13.019139,Click specific attraction book now button,Charlie
+36,2024-09-27 22:36:13.019139,2024-09-27 22:36:17.356866,Response tour information to user,BookingSystem
+36,2024-09-27 22:36:17.356866,2024-09-27 22:36:19.677203,View specific tour details,Charlie
+36,2024-09-27 22:36:19.677203,2024-09-27 22:36:21.899908,Fill personal information and click book button,Charlie
+36,2024-09-27 22:36:21.899908,2024-09-27 22:36:23.013706,Validate user input,BookingSystem
+36,2024-09-27 22:36:23.013706,2024-09-27 22:36:26.073518,Check availability,InventorySystem
+36,2024-09-27 22:36:26.073518,2024-09-27 22:36:27.953322,Create an order and return an order id to user,BookingSystem
+36,2024-09-27 22:36:27.953322,2024-09-27 22:36:31.230477,Confirm and pay,Charlie
+36,2024-09-27 22:36:31.230477,2024-09-27 22:36:35.818484,Validate user payment information and process payment,PaymentGateway
+36,2024-09-27 22:36:35.818484,2024-09-27 22:36:40.644687,Update inventory,InventorySystem
+36,2024-09-27 22:36:40.644687,2024-09-27 22:36:42.968664,Send confirmation message to user,BookingSystem
+36,2024-09-27 22:36:42.968664,2024-09-27 22:36:47.906503,Receive confirmation,Charlie
+37,2024-09-27 22:36:02.924745,2024-09-27 22:36:05.364007,Browse attraction page,Eve
+37,2024-09-27 22:36:05.364007,2024-09-27 22:36:06.850560,Response attraction information to user,VisitorInformationSystem
+37,2024-09-27 22:36:06.850560,2024-09-27 22:36:11.371264,Click specific attraction book now button,Eve
+37,2024-09-27 22:36:11.371264,2024-09-27 22:36:15.245641,Response tour information to user,BookingSystem
+37,2024-09-27 22:36:15.245641,2024-09-27 22:36:19.582896,View specific tour details,Eve
+37,2024-09-27 22:36:19.582896,2024-09-27 22:36:21.552228,Fill personal information and click book button,Eve
+37,2024-09-27 22:36:21.552228,2024-09-27 22:36:25.747510,Validate user input,BookingSystem
+37,2024-09-27 22:36:25.747510,2024-09-27 22:36:27.846466,Check availability,InventorySystem
+37,2024-09-27 22:36:27.846466,2024-09-27 22:36:31.119084,Create an order and return an order id to user,BookingSystem
+37,2024-09-27 22:36:31.119084,2024-09-27 22:36:33.512314,Confirm and pay,Eve
+37,2024-09-27 22:36:33.512314,2024-09-27 22:36:36.509929,Validate user payment information and process payment,PaymentGateway
+37,2024-09-27 22:36:36.509929,2024-09-27 22:36:40.819045,Update inventory,InventorySystem
+37,2024-09-27 22:36:40.819045,2024-09-27 22:36:44.540201,Send confirmation message to user,BookingSystem
+37,2024-09-27 22:36:44.540201,2024-09-27 22:36:48.574615,Receive confirmation,Eve
+38,2024-09-27 22:36:02.924756,2024-09-27 22:36:07.144878,Search for attraction,Bob
+38,2024-09-27 22:36:07.144878,2024-09-27 22:36:10.598612,Response attraction information to user,VisitorInformationSystem
+38,2024-09-27 22:36:10.598612,2024-09-27 22:36:13.838699,Click specific attraction book now button,Bob
+38,2024-09-27 22:36:13.838699,2024-09-27 22:36:18.641641,Response tour information to user,BookingSystem
+38,2024-09-27 22:36:18.641641,2024-09-27 22:36:19.801555,View specific tour details,Bob
+38,2024-09-27 22:36:19.801555,2024-09-27 22:36:23.853051,Fill personal information and click book button,Bob
+38,2024-09-27 22:36:23.853051,2024-09-27 22:36:28.085551,Validate user input,BookingSystem
+38,2024-09-27 22:36:28.085551,2024-09-27 22:36:30.476499,Check availability,InventorySystem
+38,2024-09-27 22:36:30.476499,2024-09-27 22:36:33.980303,Create an order and return an order id to user,BookingSystem
+38,2024-09-27 22:36:33.980303,2024-09-27 22:36:38.032966,Confirm and pay,Bob
+38,2024-09-27 22:36:38.032966,2024-09-27 22:36:42.426019,Validate user payment information and process payment,PaymentGateway
+38,2024-09-27 22:36:42.426019,2024-09-27 22:36:45.309243,Update inventory,InventorySystem
+38,2024-09-27 22:36:45.309243,2024-09-27 22:36:48.645758,Send confirmation message to user,BookingSystem
+38,2024-09-27 22:36:48.645758,2024-09-27 22:36:51.729640,Receive confirmation,Bob
+39,2024-09-27 22:36:02.924767,2024-09-27 22:36:07.336536,Search for attraction,Alice
+39,2024-09-27 22:36:07.336536,2024-09-27 22:36:07.336536,Process terminated: System failure,VisitorInformationSystem
+40,2024-09-27 22:36:02.924769,2024-09-27 22:36:05.913644,Search for attraction,Bob
+40,2024-09-27 22:36:05.913644,2024-09-27 22:36:08.272790,Response attraction information to user,VisitorInformationSystem
+40,2024-09-27 22:36:08.272790,2024-09-27 22:36:10.308281,Click specific attraction book now button,Bob
+40,2024-09-27 22:36:10.308281,2024-09-27 22:36:14.952394,Response tour information to user,BookingSystem
+40,2024-09-27 22:36:14.952394,2024-09-27 22:36:17.679222,View specific tour details,Bob
+40,2024-09-27 22:36:17.679222,2024-09-27 22:36:19.736976,Fill personal information and click book button,Bob
+40,2024-09-27 22:36:19.736976,2024-09-27 22:36:23.892361,Validate user input,BookingSystem
+40,2024-09-27 22:36:23.892361,2024-09-27 22:36:25.731611,Check availability,InventorySystem
+40,2024-09-27 22:36:25.731611,2024-09-27 22:36:29.182274,Create an order and return an order id to user,BookingSystem
+40,2024-09-27 22:36:29.182274,2024-09-27 22:36:30.914835,Confirm and pay,Bob
+40,2024-09-27 22:36:30.914835,2024-09-27 22:36:34.977496,Validate user payment information and process payment,PaymentGateway
+40,2024-09-27 22:36:34.977496,2024-09-27 22:36:37.015040,Update inventory,InventorySystem
+40,2024-09-27 22:36:37.015040,2024-09-27 22:36:40.245171,Send confirmation message to user,BookingSystem
+40,2024-09-27 22:36:40.245171,2024-09-27 22:36:42.251136,Receive confirmation,Bob
+41,2024-09-27 22:36:02.924776,2024-09-27 22:36:05.045361,Browse attraction page,Bob
+41,2024-09-27 22:36:05.045361,2024-09-27 22:36:06.840050,Response attraction information to user,VisitorInformationSystem
+41,2024-09-27 22:36:06.840050,2024-09-27 22:36:11.126362,Click specific attraction book now button,Bob
+41,2024-09-27 22:36:11.126362,2024-09-27 22:36:13.586644,Response tour information to user,BookingSystem
+41,2024-09-27 22:36:13.586644,2024-09-27 22:36:17.032730,View specific tour details,Bob
+41,2024-09-27 22:36:17.032730,2024-09-27 22:36:21.946586,Fill personal information and click book button,Bob
+41,2024-09-27 22:36:21.946586,2024-09-27 22:36:25.142868,Validate user input,BookingSystem
+41,2024-09-27 22:36:25.142868,2024-09-27 22:36:29.966345,Check availability,InventorySystem
+41,2024-09-27 22:36:29.966345,2024-09-27 22:36:33.159911,Create an order and return an order id to user,BookingSystem
+41,2024-09-27 22:36:33.159911,2024-09-27 22:36:35.407452,Confirm and pay,Bob
+41,2024-09-27 22:36:35.407452,2024-09-27 22:36:36.901309,Validate user payment information and process payment,PaymentGateway
+41,2024-09-27 22:36:36.901309,2024-09-27 22:36:38.170222,Update inventory,InventorySystem
+41,2024-09-27 22:36:38.170222,2024-09-27 22:36:39.709482,Send confirmation message to user,BookingSystem
+41,2024-09-27 22:36:39.709482,2024-09-27 22:36:43.562744,Receive confirmation,Bob
+42,2024-09-27 22:36:02.924783,2024-09-27 22:36:05.530749,Search for attraction,Eve
+42,2024-09-27 22:36:05.530749,2024-09-27 22:36:08.276838,Response attraction information to user,VisitorInformationSystem
+42,2024-09-27 22:36:08.276838,2024-09-27 22:36:09.385193,Click specific attraction book now button,Eve
+42,2024-09-27 22:36:09.385193,2024-09-27 22:36:12.907484,Response tour information to user,BookingSystem
+42,2024-09-27 22:36:12.907484,2024-09-27 22:36:17.040030,View specific tour details,Eve
+42,2024-09-27 22:36:17.040030,2024-09-27 22:36:20.390449,Fill personal information and click book button,Eve
+42,2024-09-27 22:36:20.390449,2024-09-27 22:36:22.873305,Validate user input,BookingSystem
+42,2024-09-27 22:36:22.873305,2024-09-27 22:36:24.211384,Check availability,InventorySystem
+42,2024-09-27 22:36:24.211384,2024-09-27 22:36:25.862974,Create an order and return an order id to user,BookingSystem
+42,2024-09-27 22:36:25.862974,2024-09-27 22:36:28.644800,Confirm and pay,Eve
+42,2024-09-27 22:36:28.644800,2024-09-27 22:36:30.842560,Validate user payment information and process payment,PaymentGateway
+42,2024-09-27 22:36:30.842560,2024-09-27 22:36:33.459802,Update inventory,InventorySystem
+42,2024-09-27 22:36:33.459802,2024-09-27 22:36:37.842326,Send confirmation message to user,BookingSystem
+42,2024-09-27 22:36:37.842326,2024-09-27 22:36:40.555731,Receive confirmation,Eve
+43,2024-09-27 22:36:02.924791,2024-09-27 22:36:05.095882,Search for attraction,Bob
+43,2024-09-27 22:36:05.095882,2024-09-27 22:36:05.095882,Process terminated: User exited early,Bob
+44,2024-09-27 22:36:02.924792,2024-09-27 22:36:05.307368,Search for attraction,Bob
+44,2024-09-27 22:36:05.307368,2024-09-27 22:36:06.426952,Response attraction information to user,VisitorInformationSystem
+44,2024-09-27 22:36:06.426952,2024-09-27 22:36:09.947869,Click specific attraction book now button,Bob
+44,2024-09-27 22:36:09.947869,2024-09-27 22:36:14.692684,Response tour information to user,BookingSystem
+44,2024-09-27 22:36:14.692684,2024-09-27 22:36:19.604471,View specific tour details,Bob
+44,2024-09-27 22:36:19.604471,2024-09-27 22:36:21.830883,Fill personal information and click book button,Bob
+44,2024-09-27 22:36:21.830883,2024-09-27 22:36:24.996345,Validate user input,BookingSystem
+44,2024-09-27 22:36:24.996345,2024-09-27 22:36:29.324231,Check availability,InventorySystem
+44,2024-09-27 22:36:29.324231,2024-09-27 22:36:32.499971,Create an order and return an order id to user,BookingSystem
+44,2024-09-27 22:36:32.499971,2024-09-27 22:36:34.854676,Confirm and pay,Bob
+44,2024-09-27 22:36:34.854676,2024-09-27 22:36:37.322909,Validate user payment information and process payment,PaymentGateway
+44,2024-09-27 22:36:37.322909,2024-09-27 22:36:41.889292,Update inventory,InventorySystem
+44,2024-09-27 22:36:41.889292,2024-09-27 22:36:43.062994,Send confirmation message to user,BookingSystem
+44,2024-09-27 22:36:43.062994,2024-09-27 22:36:45.959064,Receive confirmation,Bob
+45,2024-09-27 22:36:02.924803,2024-09-27 22:36:04.181116,Search for attraction,Charlie
+45,2024-09-27 22:36:04.181116,2024-09-27 22:36:08.100496,Response attraction information to user,VisitorInformationSystem
+45,2024-09-27 22:36:08.100496,2024-09-27 22:36:10.845548,Click specific attraction book now button,Charlie
+45,2024-09-27 22:36:10.845548,2024-09-27 22:36:14.885462,Response tour information to user,BookingSystem
+45,2024-09-27 22:36:14.885462,2024-09-27 22:36:18.314464,View specific tour details,Charlie
+45,2024-09-27 22:36:18.314464,2024-09-27 22:36:22.116052,Fill personal information and click book button,Charlie
+45,2024-09-27 22:36:22.116052,2024-09-27 22:36:26.035485,Validate user input,BookingSystem
+45,2024-09-27 22:36:26.035485,2024-09-27 22:36:29.124536,Check availability,InventorySystem
+45,2024-09-27 22:36:29.124536,2024-09-27 22:36:31.570935,Create an order and return an order id to user,BookingSystem
+45,2024-09-27 22:36:31.570935,2024-09-27 22:36:34.735677,Confirm and pay,Charlie
+45,2024-09-27 22:36:34.735677,2024-09-27 22:36:36.981348,Validate user payment information and process payment,PaymentGateway
+45,2024-09-27 22:36:36.981348,2024-09-27 22:36:41.057048,Update inventory,InventorySystem
+45,2024-09-27 22:36:41.057048,2024-09-27 22:36:45.084763,Send confirmation message to user,BookingSystem
+45,2024-09-27 22:36:45.084763,2024-09-27 22:36:47.803383,Receive confirmation,Charlie
+46,2024-09-27 22:36:02.924814,2024-09-27 22:36:04.001805,Browse attraction page,Bob
+46,2024-09-27 22:36:04.001805,2024-09-27 22:36:07.696605,Response attraction information to user,VisitorInformationSystem
+46,2024-09-27 22:36:07.696605,2024-09-27 22:36:11.407650,Click specific attraction book now button,Bob
+46,2024-09-27 22:36:11.407650,2024-09-27 22:36:13.683750,Response tour information to user,BookingSystem
+46,2024-09-27 22:36:13.683750,2024-09-27 22:36:17.105346,View specific tour details,Bob
+46,2024-09-27 22:36:17.105346,2024-09-27 22:36:18.553017,Fill personal information and click book button,Bob
+46,2024-09-27 22:36:18.553017,2024-09-27 22:36:20.465130,Validate user input,BookingSystem
+46,2024-09-27 22:36:20.465130,2024-09-27 22:36:25.455567,Check availability,InventorySystem
+46,2024-09-27 22:36:25.455567,2024-09-27 22:36:29.896988,Create an order and return an order id to user,BookingSystem
+46,2024-09-27 22:36:29.896988,2024-09-27 22:36:34.016932,Confirm and pay,Bob
+46,2024-09-27 22:36:34.016932,2024-09-27 22:36:37.350903,Validate user payment information and process payment,PaymentGateway
+46,2024-09-27 22:36:37.350903,2024-09-27 22:36:41.343429,Update inventory,InventorySystem
+46,2024-09-27 22:36:41.343429,2024-09-27 22:36:45.914916,Send confirmation message to user,BookingSystem
+46,2024-09-27 22:36:45.914916,2024-09-27 22:36:47.883664,Receive confirmation,Bob
+47,2024-09-27 22:36:02.924821,2024-09-27 22:36:05.892438,Search for attraction,David
+47,2024-09-27 22:36:05.892438,2024-09-27 22:36:09.952110,Response attraction information to user,VisitorInformationSystem
+47,2024-09-27 22:36:09.952110,2024-09-27 22:36:11.011152,Click specific attraction book now button,David
+47,2024-09-27 22:36:11.011152,2024-09-27 22:36:12.964560,Response tour information to user,BookingSystem
+47,2024-09-27 22:36:12.964560,2024-09-27 22:36:14.063517,View specific tour details,David
+47,2024-09-27 22:36:14.063517,2024-09-27 22:36:18.744453,Fill personal information and click book button,David
+47,2024-09-27 22:36:18.744453,2024-09-27 22:36:23.423243,Validate user input,BookingSystem
+47,2024-09-27 22:36:23.423243,2024-09-27 22:36:27.920856,Check availability,InventorySystem
+47,2024-09-27 22:36:27.920856,2024-09-27 22:36:32.818596,Create an order and return an order id to user,BookingSystem
+47,2024-09-27 22:36:32.818596,2024-09-27 22:36:37.448628,Confirm and pay,David
+47,2024-09-27 22:36:37.448628,2024-09-27 22:36:39.096977,Validate user payment information and process payment,PaymentGateway
+47,2024-09-27 22:36:39.096977,2024-09-27 22:36:42.653323,Update inventory,InventorySystem
+47,2024-09-27 22:36:42.653323,2024-09-27 22:36:47.359673,Send confirmation message to user,BookingSystem
+47,2024-09-27 22:36:47.359673,2024-09-27 22:36:51.291502,Receive confirmation,David
+48,2024-09-27 22:36:02.924828,2024-09-27 22:36:04.339327,Search for attraction,Bob
+48,2024-09-27 22:36:04.339327,2024-09-27 22:36:05.397719,Response attraction information to user,VisitorInformationSystem
+48,2024-09-27 22:36:05.397719,2024-09-27 22:36:09.271504,Click specific attraction book now button,Bob
+48,2024-09-27 22:36:09.271504,2024-09-27 22:36:13.767409,Response tour information to user,BookingSystem
+48,2024-09-27 22:36:13.767409,2024-09-27 22:36:15.206042,View specific tour details,Bob
+48,2024-09-27 22:36:15.206042,2024-09-27 22:36:17.893900,Fill personal information and click book button,Bob
+48,2024-09-27 22:36:17.893900,2024-09-27 22:36:22.893207,Validate user input,BookingSystem
+48,2024-09-27 22:36:22.893207,2024-09-27 22:36:26.814620,Check availability,InventorySystem
+48,2024-09-27 22:36:26.814620,2024-09-27 22:36:28.391251,Create an order and return an order id to user,BookingSystem
+48,2024-09-27 22:36:28.391251,2024-09-27 22:36:31.715179,Confirm and pay,Bob
+48,2024-09-27 22:36:31.715179,2024-09-27 22:36:33.071579,Validate user payment information and process payment,PaymentGateway
+48,2024-09-27 22:36:33.071579,2024-09-27 22:36:37.358709,Update inventory,InventorySystem
+48,2024-09-27 22:36:37.358709,2024-09-27 22:36:41.504789,Send confirmation message to user,BookingSystem
+48,2024-09-27 22:36:41.504789,2024-09-27 22:36:45.748768,Receive confirmation,Bob
+49,2024-09-27 22:36:02.924861,2024-09-27 22:36:07.908401,Browse attraction page,Charlie
+49,2024-09-27 22:36:07.908401,2024-09-27 22:36:12.857057,Response attraction information to user,VisitorInformationSystem
+49,2024-09-27 22:36:12.857057,2024-09-27 22:36:17.738711,Click specific attraction book now button,Charlie
+49,2024-09-27 22:36:17.738711,2024-09-27 22:36:19.840577,Response tour information to user,BookingSystem
+49,2024-09-27 22:36:19.840577,2024-09-27 22:36:23.391853,View specific tour details,Charlie
+49,2024-09-27 22:36:23.391853,2024-09-27 22:36:24.749443,Fill personal information and click book button,Charlie
+49,2024-09-27 22:36:24.749443,2024-09-27 22:36:26.509018,Validate user input,BookingSystem
+49,2024-09-27 22:36:26.509018,2024-09-27 22:36:28.254999,Check availability,InventorySystem
+49,2024-09-27 22:36:28.254999,2024-09-27 22:36:29.297796,Create an order and return an order id to user,BookingSystem
+49,2024-09-27 22:36:29.297796,2024-09-27 22:36:30.995107,Confirm and pay,Charlie
+49,2024-09-27 22:36:30.995107,2024-09-27 22:36:35.697066,Validate user payment information and process payment,PaymentGateway
+49,2024-09-27 22:36:35.697066,2024-09-27 22:36:40.477487,Update inventory,InventorySystem
+49,2024-09-27 22:36:40.477487,2024-09-27 22:36:45.177156,Send confirmation message to user,BookingSystem
+49,2024-09-27 22:36:45.177156,2024-09-27 22:36:48.808356,Receive confirmation,Charlie
+50,2024-09-27 22:36:02.924868,2024-09-27 22:36:05.247526,Browse attraction page,David
+50,2024-09-27 22:36:05.247526,2024-09-27 22:36:05.247526,Process terminated: User exited early,David
+51,2024-09-27 22:36:02.924869,2024-09-27 22:36:07.554989,Search for attraction,Bob
+51,2024-09-27 22:36:07.554989,2024-09-27 22:36:07.554989,Process terminated: System failure,VisitorInformationSystem
+52,2024-09-27 22:36:02.924874,2024-09-27 22:36:07.537772,Search for attraction,Bob
+52,2024-09-27 22:36:07.537772,2024-09-27 22:36:09.241074,Response attraction information to user,VisitorInformationSystem
+52,2024-09-27 22:36:09.241074,2024-09-27 22:36:12.730638,Click specific attraction book now button,Bob
+52,2024-09-27 22:36:12.730638,2024-09-27 22:36:14.611707,Response tour information to user,BookingSystem
+52,2024-09-27 22:36:14.611707,2024-09-27 22:36:19.208067,View specific tour details,Bob
+52,2024-09-27 22:36:19.208067,2024-09-27 22:36:23.831155,Fill personal information and click book button,Bob
+52,2024-09-27 22:36:23.831155,2024-09-27 22:36:26.674535,Validate user input,BookingSystem
+52,2024-09-27 22:36:26.674535,2024-09-27 22:36:27.855414,Check availability,InventorySystem
+52,2024-09-27 22:36:27.855414,2024-09-27 22:36:31.641527,Create an order and return an order id to user,BookingSystem
+52,2024-09-27 22:36:31.641527,2024-09-27 22:36:33.334209,Confirm and pay,Bob
+52,2024-09-27 22:36:33.334209,2024-09-27 22:36:35.044456,Validate user payment information and process payment,PaymentGateway
+52,2024-09-27 22:36:35.044456,2024-09-27 22:36:38.822230,Update inventory,InventorySystem
+52,2024-09-27 22:36:38.822230,2024-09-27 22:36:41.110155,Send confirmation message to user,BookingSystem
+52,2024-09-27 22:36:41.110155,2024-09-27 22:36:45.933661,Receive confirmation,Bob
+53,2024-09-27 22:36:02.924881,2024-09-27 22:36:04.510225,Browse attraction page,Bob
+53,2024-09-27 22:36:04.510225,2024-09-27 22:36:05.836623,Response attraction information to user,VisitorInformationSystem
+53,2024-09-27 22:36:05.836623,2024-09-27 22:36:10.242046,Click specific attraction book now button,Bob
+53,2024-09-27 22:36:10.242046,2024-09-27 22:36:14.165357,Response tour information to user,BookingSystem
+53,2024-09-27 22:36:14.165357,2024-09-27 22:36:17.529495,View specific tour details,Bob
+53,2024-09-27 22:36:17.529495,2024-09-27 22:36:21.174163,Fill personal information and click book button,Bob
+53,2024-09-27 22:36:21.174163,2024-09-27 22:36:25.269379,Validate user input,BookingSystem
+53,2024-09-27 22:36:25.269379,2024-09-27 22:36:26.467075,Check availability,InventorySystem
+53,2024-09-27 22:36:26.467075,2024-09-27 22:36:28.705214,Create an order and return an order id to user,BookingSystem
+53,2024-09-27 22:36:28.705214,2024-09-27 22:36:31.848377,Confirm and pay,Bob
+53,2024-09-27 22:36:31.848377,2024-09-27 22:36:33.372629,Validate user payment information and process payment,PaymentGateway
+53,2024-09-27 22:36:33.372629,2024-09-27 22:36:35.710755,Update inventory,InventorySystem
+53,2024-09-27 22:36:35.710755,2024-09-27 22:36:37.536435,Send confirmation message to user,BookingSystem
+53,2024-09-27 22:36:37.536435,2024-09-27 22:36:40.028929,Receive confirmation,Bob
+54,2024-09-27 22:36:02.924890,2024-09-27 22:36:07.391705,Browse attraction page,Alice
+54,2024-09-27 22:36:07.391705,2024-09-27 22:36:10.557762,Response attraction information to user,VisitorInformationSystem
+54,2024-09-27 22:36:10.557762,2024-09-27 22:36:13.747746,Click specific attraction book now button,Alice
+54,2024-09-27 22:36:13.747746,2024-09-27 22:36:14.921063,Response tour information to user,BookingSystem
+54,2024-09-27 22:36:14.921063,2024-09-27 22:36:16.979498,View specific tour details,Alice
+54,2024-09-27 22:36:16.979498,2024-09-27 22:36:19.679151,Fill personal information and click book button,Alice
+54,2024-09-27 22:36:19.679151,2024-09-27 22:36:20.768247,Validate user input,BookingSystem
+54,2024-09-27 22:36:20.768247,2024-09-27 22:36:22.174166,Check availability,InventorySystem
+54,2024-09-27 22:36:22.174166,2024-09-27 22:36:23.980029,Create an order and return an order id to user,BookingSystem
+54,2024-09-27 22:36:23.980029,2024-09-27 22:36:28.908166,Confirm and pay,Alice
+54,2024-09-27 22:36:28.908166,2024-09-27 22:36:32.516960,Validate user payment information and process payment,PaymentGateway
+54,2024-09-27 22:36:32.516960,2024-09-27 22:36:35.115180,Update inventory,InventorySystem
+54,2024-09-27 22:36:35.115180,2024-09-27 22:36:38.450651,Send confirmation message to user,BookingSystem
+54,2024-09-27 22:36:38.450651,2024-09-27 22:36:40.929911,Receive confirmation,Alice
+55,2024-09-27 22:36:02.924900,2024-09-27 22:36:07.909622,Browse attraction page,Bob
+55,2024-09-27 22:36:07.909622,2024-09-27 22:36:12.157454,Response attraction information to user,VisitorInformationSystem
+55,2024-09-27 22:36:12.157454,2024-09-27 22:36:15.705154,Click specific attraction book now button,Bob
+55,2024-09-27 22:36:15.705154,2024-09-27 22:36:18.564174,Response tour information to user,BookingSystem
+55,2024-09-27 22:36:18.564174,2024-09-27 22:36:21.065558,View specific tour details,Bob
+55,2024-09-27 22:36:21.065558,2024-09-27 22:36:24.799866,Fill personal information and click book button,Bob
+55,2024-09-27 22:36:24.799866,2024-09-27 22:36:29.332830,Validate user input,BookingSystem
+55,2024-09-27 22:36:29.332830,2024-09-27 22:36:31.217532,Check availability,InventorySystem
+55,2024-09-27 22:36:31.217532,2024-09-27 22:36:32.537986,Create an order and return an order id to user,BookingSystem
+55,2024-09-27 22:36:32.537986,2024-09-27 22:36:33.850543,Confirm and pay,Bob
+55,2024-09-27 22:36:33.850543,2024-09-27 22:36:36.737114,Validate user payment information and process payment,PaymentGateway
+55,2024-09-27 22:36:36.737114,2024-09-27 22:36:41.659605,Update inventory,InventorySystem
+55,2024-09-27 22:36:41.659605,2024-09-27 22:36:46.370719,Send confirmation message to user,BookingSystem
+55,2024-09-27 22:36:46.370719,2024-09-27 22:36:50.902963,Receive confirmation,Bob
+56,2024-09-27 22:36:02.924908,2024-09-27 22:36:04.496488,Browse attraction page,Eve
+56,2024-09-27 22:36:04.496488,2024-09-27 22:36:09.391230,Response attraction information to user,VisitorInformationSystem
+56,2024-09-27 22:36:09.391230,2024-09-27 22:36:11.707860,Click specific attraction book now button,Eve
+56,2024-09-27 22:36:11.707860,2024-09-27 22:36:16.260807,Response tour information to user,BookingSystem
+56,2024-09-27 22:36:16.260807,2024-09-27 22:36:19.071389,View specific tour details,Eve
+56,2024-09-27 22:36:19.071389,2024-09-27 22:36:20.129373,Fill personal information and click book button,Eve
+56,2024-09-27 22:36:20.129373,2024-09-27 22:36:24.558440,Validate user input,BookingSystem
+56,2024-09-27 22:36:24.558440,2024-09-27 22:36:28.342473,Check availability,InventorySystem
+56,2024-09-27 22:36:28.342473,2024-09-27 22:36:30.344385,Create an order and return an order id to user,BookingSystem
+56,2024-09-27 22:36:30.344385,2024-09-27 22:36:31.919172,Confirm and pay,Eve
+56,2024-09-27 22:36:31.919172,2024-09-27 22:36:35.964703,Validate user payment information and process payment,PaymentGateway
+56,2024-09-27 22:36:35.964703,2024-09-27 22:36:39.639060,Update inventory,InventorySystem
+56,2024-09-27 22:36:39.639060,2024-09-27 22:36:44.570816,Send confirmation message to user,BookingSystem
+56,2024-09-27 22:36:44.570816,2024-09-27 22:36:48.044620,Receive confirmation,Eve
+57,2024-09-27 22:36:02.924919,2024-09-27 22:36:04.795431,Search for attraction,Charlie
+57,2024-09-27 22:36:04.795431,2024-09-27 22:36:06.676741,Response attraction information to user,VisitorInformationSystem
+57,2024-09-27 22:36:06.676741,2024-09-27 22:36:08.324909,Click specific attraction book now button,Charlie
+57,2024-09-27 22:36:08.324909,2024-09-27 22:36:10.617413,Response tour information to user,BookingSystem
+57,2024-09-27 22:36:10.617413,2024-09-27 22:36:12.025709,View specific tour details,Charlie
+57,2024-09-27 22:36:12.025709,2024-09-27 22:36:13.418741,Fill personal information and click book button,Charlie
+57,2024-09-27 22:36:13.418741,2024-09-27 22:36:17.749168,Validate user input,BookingSystem
+57,2024-09-27 22:36:17.749168,2024-09-27 22:36:21.103338,Check availability,InventorySystem
+57,2024-09-27 22:36:21.103338,2024-09-27 22:36:25.044747,Create an order and return an order id to user,BookingSystem
+57,2024-09-27 22:36:25.044747,2024-09-27 22:36:27.204345,Confirm and pay,Charlie
+57,2024-09-27 22:36:27.204345,2024-09-27 22:36:31.369103,Validate user payment information and process payment,PaymentGateway
+57,2024-09-27 22:36:31.369103,2024-09-27 22:36:34.682877,Update inventory,InventorySystem
+57,2024-09-27 22:36:34.682877,2024-09-27 22:36:39.141220,Send confirmation message to user,BookingSystem
+57,2024-09-27 22:36:39.141220,2024-09-27 22:36:43.907455,Receive confirmation,Charlie
+58,2024-09-27 22:36:02.924927,2024-09-27 22:36:07.913130,Search for attraction,David
+58,2024-09-27 22:36:07.913130,2024-09-27 22:36:07.913130,Process terminated: User exited early,David
+59,2024-09-27 22:36:02.924932,2024-09-27 22:36:05.403538,Browse attraction page,Charlie
+59,2024-09-27 22:36:05.403538,2024-09-27 22:36:08.615004,Response attraction information to user,VisitorInformationSystem
+59,2024-09-27 22:36:08.615004,2024-09-27 22:36:13.237274,Click specific attraction book now button,Charlie
+59,2024-09-27 22:36:13.237274,2024-09-27 22:36:18.221755,Response tour information to user,BookingSystem
+59,2024-09-27 22:36:18.221755,2024-09-27 22:36:20.827496,View specific tour details,Charlie
+59,2024-09-27 22:36:20.827496,2024-09-27 22:36:25.565127,Fill personal information and click book button,Charlie
+59,2024-09-27 22:36:25.565127,2024-09-27 22:36:27.622551,Validate user input,BookingSystem
+59,2024-09-27 22:36:27.622551,2024-09-27 22:36:29.182674,Check availability,InventorySystem
+59,2024-09-27 22:36:29.182674,2024-09-27 22:36:33.504083,Create an order and return an order id to user,BookingSystem
+59,2024-09-27 22:36:33.504083,2024-09-27 22:36:34.935802,Confirm and pay,Charlie
+59,2024-09-27 22:36:34.935802,2024-09-27 22:36:36.433069,Validate user payment information and process payment,PaymentGateway
+59,2024-09-27 22:36:36.433069,2024-09-27 22:36:40.691050,Update inventory,InventorySystem
+59,2024-09-27 22:36:40.691050,2024-09-27 22:36:44.890857,Send confirmation message to user,BookingSystem
+59,2024-09-27 22:36:44.890857,2024-09-27 22:36:45.902270,Receive confirmation,Charlie
+60,2024-09-27 22:36:02.924939,2024-09-27 22:36:06.894170,Browse attraction page,Charlie
+60,2024-09-27 22:36:06.894170,2024-09-27 22:36:09.814024,Response attraction information to user,VisitorInformationSystem
+60,2024-09-27 22:36:09.814024,2024-09-27 22:36:12.356850,Click specific attraction book now button,Charlie
+60,2024-09-27 22:36:12.356850,2024-09-27 22:36:13.371485,Response tour information to user,BookingSystem
+60,2024-09-27 22:36:13.371485,2024-09-27 22:36:16.592923,View specific tour details,Charlie
+60,2024-09-27 22:36:16.592923,2024-09-27 22:36:21.418804,Fill personal information and click book button,Charlie
+60,2024-09-27 22:36:21.418804,2024-09-27 22:36:22.841052,Validate user input,BookingSystem
+60,2024-09-27 22:36:22.841052,2024-09-27 22:36:27.782903,Check availability,InventorySystem
+60,2024-09-27 22:36:27.782903,2024-09-27 22:36:29.889075,Create an order and return an order id to user,BookingSystem
+60,2024-09-27 22:36:29.889075,2024-09-27 22:36:33.788501,Confirm and pay,Charlie
+60,2024-09-27 22:36:33.788501,2024-09-27 22:36:34.833472,Validate user payment information and process payment,PaymentGateway
+60,2024-09-27 22:36:34.833472,2024-09-27 22:36:36.229489,Update inventory,InventorySystem
+60,2024-09-27 22:36:36.229489,2024-09-27 22:36:37.392757,Send confirmation message to user,BookingSystem
+60,2024-09-27 22:36:37.392757,2024-09-27 22:36:41.807667,Receive confirmation,Charlie
+61,2024-09-27 22:36:02.924953,2024-09-27 22:36:04.764451,Search for attraction,Bob
+61,2024-09-27 22:36:04.764451,2024-09-27 22:36:07.707757,Response attraction information to user,VisitorInformationSystem
+61,2024-09-27 22:36:07.707757,2024-09-27 22:36:12.148300,Click specific attraction book now button,Bob
+61,2024-09-27 22:36:12.148300,2024-09-27 22:36:13.668964,Response tour information to user,BookingSystem
+61,2024-09-27 22:36:13.668964,2024-09-27 22:36:15.082669,View specific tour details,Bob
+61,2024-09-27 22:36:15.082669,2024-09-27 22:36:19.228780,Fill personal information and click book button,Bob
+61,2024-09-27 22:36:19.228780,2024-09-27 22:36:23.294603,Validate user input,BookingSystem
+61,2024-09-27 22:36:23.294603,2024-09-27 22:36:24.316913,Check availability,InventorySystem
+61,2024-09-27 22:36:24.316913,2024-09-27 22:36:25.336296,Create an order and return an order id to user,BookingSystem
+61,2024-09-27 22:36:25.336296,2024-09-27 22:36:26.786954,Confirm and pay,Bob
+61,2024-09-27 22:36:26.786954,2024-09-27 22:36:31.088240,Validate user payment information and process payment,PaymentGateway
+61,2024-09-27 22:36:31.088240,2024-09-27 22:36:34.495113,Update inventory,InventorySystem
+61,2024-09-27 22:36:34.495113,2024-09-27 22:36:37.398800,Send confirmation message to user,BookingSystem
+61,2024-09-27 22:36:37.398800,2024-09-27 22:36:38.707592,Receive confirmation,Bob
+62,2024-09-27 22:36:02.924961,2024-09-27 22:36:07.630554,Browse attraction page,Eve
+62,2024-09-27 22:36:07.630554,2024-09-27 22:36:10.131318,Response attraction information to user,VisitorInformationSystem
+62,2024-09-27 22:36:10.131318,2024-09-27 22:36:12.626438,Click specific attraction book now button,Eve
+62,2024-09-27 22:36:12.626438,2024-09-27 22:36:13.780728,Response tour information to user,BookingSystem
+62,2024-09-27 22:36:13.780728,2024-09-27 22:36:16.621392,View specific tour details,Eve
+62,2024-09-27 22:36:16.621392,2024-09-27 22:36:21.015838,Fill personal information and click book button,Eve
+62,2024-09-27 22:36:21.015838,2024-09-27 22:36:22.594655,Validate user input,BookingSystem
+62,2024-09-27 22:36:22.594655,2024-09-27 22:36:26.232178,Check availability,InventorySystem
+62,2024-09-27 22:36:26.232178,2024-09-27 22:36:28.498528,Create an order and return an order id to user,BookingSystem
+62,2024-09-27 22:36:28.498528,2024-09-27 22:36:31.130084,Confirm and pay,Eve
+62,2024-09-27 22:36:31.130084,2024-09-27 22:36:31.130084,Process terminated: Payment failure,PaymentGateway
+63,2024-09-27 22:36:02.924969,2024-09-27 22:36:07.917655,Browse attraction page,Eve
+63,2024-09-27 22:36:07.917655,2024-09-27 22:36:10.843122,Response attraction information to user,VisitorInformationSystem
+63,2024-09-27 22:36:10.843122,2024-09-27 22:36:12.212924,Click specific attraction book now button,Eve
+63,2024-09-27 22:36:12.212924,2024-09-27 22:36:14.503611,Response tour information to user,BookingSystem
+63,2024-09-27 22:36:14.503611,2024-09-27 22:36:16.856576,View specific tour details,Eve
+63,2024-09-27 22:36:16.856576,2024-09-27 22:36:18.862480,Fill personal information and click book button,Eve
+63,2024-09-27 22:36:18.862480,2024-09-27 22:36:21.200605,Validate user input,BookingSystem
+63,2024-09-27 22:36:21.200605,2024-09-27 22:36:24.538919,Check availability,InventorySystem
+63,2024-09-27 22:36:24.538919,2024-09-27 22:36:27.399841,Create an order and return an order id to user,BookingSystem
+63,2024-09-27 22:36:27.399841,2024-09-27 22:36:30.232870,Confirm and pay,Eve
+63,2024-09-27 22:36:30.232870,2024-09-27 22:36:34.169326,Validate user payment information and process payment,PaymentGateway
+63,2024-09-27 22:36:34.169326,2024-09-27 22:36:37.749444,Update inventory,InventorySystem
+63,2024-09-27 22:36:37.749444,2024-09-27 22:36:41.391389,Send confirmation message to user,BookingSystem
+63,2024-09-27 22:36:41.391389,2024-09-27 22:36:43.248370,Receive confirmation,Eve
+64,2024-09-27 22:36:02.924977,2024-09-27 22:36:05.855068,Browse attraction page,Bob
+64,2024-09-27 22:36:05.855068,2024-09-27 22:36:08.054589,Response attraction information to user,VisitorInformationSystem
+64,2024-09-27 22:36:08.054589,2024-09-27 22:36:12.347815,Click specific attraction book now button,Bob
+64,2024-09-27 22:36:12.347815,2024-09-27 22:36:15.612589,Response tour information to user,BookingSystem
+64,2024-09-27 22:36:15.612589,2024-09-27 22:36:20.294893,View specific tour details,Bob
+64,2024-09-27 22:36:20.294893,2024-09-27 22:36:22.397912,Fill personal information and click book button,Bob
+64,2024-09-27 22:36:22.397912,2024-09-27 22:36:26.194072,Validate user input,BookingSystem
+64,2024-09-27 22:36:26.194072,2024-09-27 22:36:27.540471,Check availability,InventorySystem
+64,2024-09-27 22:36:27.540471,2024-09-27 22:36:31.954077,Create an order and return an order id to user,BookingSystem
+64,2024-09-27 22:36:31.954077,2024-09-27 22:36:35.119618,Confirm and pay,Bob
+64,2024-09-27 22:36:35.119618,2024-09-27 22:36:37.122280,Validate user payment information and process payment,PaymentGateway
+64,2024-09-27 22:36:37.122280,2024-09-27 22:36:39.979058,Update inventory,InventorySystem
+64,2024-09-27 22:36:39.979058,2024-09-27 22:36:42.512529,Send confirmation message to user,BookingSystem
+64,2024-09-27 22:36:42.512529,2024-09-27 22:36:46.832507,Receive confirmation,Bob
+65,2024-09-27 22:36:02.924984,2024-09-27 22:36:07.664329,Search for attraction,Bob
+65,2024-09-27 22:36:07.664329,2024-09-27 22:36:11.245611,Response attraction information to user,VisitorInformationSystem
+65,2024-09-27 22:36:11.245611,2024-09-27 22:36:15.066593,Click specific attraction book now button,Bob
+65,2024-09-27 22:36:15.066593,2024-09-27 22:36:18.403520,Response tour information to user,BookingSystem
+65,2024-09-27 22:36:18.403520,2024-09-27 22:36:21.415735,View specific tour details,Bob
+65,2024-09-27 22:36:21.415735,2024-09-27 22:36:23.419011,Fill personal information and click book button,Bob
+65,2024-09-27 22:36:23.419011,2024-09-27 22:36:25.883325,Validate user input,BookingSystem
+65,2024-09-27 22:36:25.883325,2024-09-27 22:36:28.815784,Check availability,InventorySystem
+65,2024-09-27 22:36:28.815784,2024-09-27 22:36:32.432262,Create an order and return an order id to user,BookingSystem
+65,2024-09-27 22:36:32.432262,2024-09-27 22:36:36.074869,Confirm and pay,Bob
+65,2024-09-27 22:36:36.074869,2024-09-27 22:36:39.955555,Validate user payment information and process payment,PaymentGateway
+65,2024-09-27 22:36:39.955555,2024-09-27 22:36:42.003360,Update inventory,InventorySystem
+65,2024-09-27 22:36:42.003360,2024-09-27 22:36:44.500150,Send confirmation message to user,BookingSystem
+65,2024-09-27 22:36:44.500150,2024-09-27 22:36:46.644974,Receive confirmation,Bob
+66,2024-09-27 22:36:02.924991,2024-09-27 22:36:07.346184,Browse attraction page,David
+66,2024-09-27 22:36:07.346184,2024-09-27 22:36:09.503939,Response attraction information to user,VisitorInformationSystem
+66,2024-09-27 22:36:09.503939,2024-09-27 22:36:13.552002,Click specific attraction book now button,David
+66,2024-09-27 22:36:13.552002,2024-09-27 22:36:15.921002,Response tour information to user,BookingSystem
+66,2024-09-27 22:36:15.921002,2024-09-27 22:36:19.190002,View specific tour details,David
+66,2024-09-27 22:36:19.190002,2024-09-27 22:36:20.235097,Fill personal information and click book button,David
+66,2024-09-27 22:36:20.235097,2024-09-27 22:36:22.000120,Validate user input,BookingSystem
+66,2024-09-27 22:36:22.000120,2024-09-27 22:36:23.128687,Check availability,InventorySystem
+66,2024-09-27 22:36:23.128687,2024-09-27 22:36:24.273413,Create an order and return an order id to user,BookingSystem
+66,2024-09-27 22:36:24.273413,2024-09-27 22:36:25.788738,Confirm and pay,David
+66,2024-09-27 22:36:25.788738,2024-09-27 22:36:30.080800,Validate user payment information and process payment,PaymentGateway
+66,2024-09-27 22:36:30.080800,2024-09-27 22:36:32.078556,Update inventory,InventorySystem
+66,2024-09-27 22:36:32.078556,2024-09-27 22:36:36.537679,Send confirmation message to user,BookingSystem
+66,2024-09-27 22:36:36.537679,2024-09-27 22:36:39.564157,Receive confirmation,David
+67,2024-09-27 22:36:02.925001,2024-09-27 22:36:06.414833,Search for attraction,Charlie
+67,2024-09-27 22:36:06.414833,2024-09-27 22:36:06.414833,Process terminated: User exited early,Charlie
+68,2024-09-27 22:36:02.925002,2024-09-27 22:36:04.797523,Browse attraction page,Charlie
+68,2024-09-27 22:36:04.797523,2024-09-27 22:36:09.057354,Response attraction information to user,VisitorInformationSystem
+68,2024-09-27 22:36:09.057354,2024-09-27 22:36:11.435553,Click specific attraction book now button,Charlie
+68,2024-09-27 22:36:11.435553,2024-09-27 22:36:14.454747,Response tour information to user,BookingSystem
+68,2024-09-27 22:36:14.454747,2024-09-27 22:36:18.658347,View specific tour details,Charlie
+68,2024-09-27 22:36:18.658347,2024-09-27 22:36:22.594180,Fill personal information and click book button,Charlie
+68,2024-09-27 22:36:22.594180,2024-09-27 22:36:27.053949,Validate user input,BookingSystem
+68,2024-09-27 22:36:27.053949,2024-09-27 22:36:28.181370,Check availability,InventorySystem
+68,2024-09-27 22:36:28.181370,2024-09-27 22:36:31.348203,Create an order and return an order id to user,BookingSystem
+68,2024-09-27 22:36:31.348203,2024-09-27 22:36:33.918294,Confirm and pay,Charlie
+68,2024-09-27 22:36:33.918294,2024-09-27 22:36:36.678530,Validate user payment information and process payment,PaymentGateway
+68,2024-09-27 22:36:36.678530,2024-09-27 22:36:37.902788,Update inventory,InventorySystem
+68,2024-09-27 22:36:37.902788,2024-09-27 22:36:39.676150,Send confirmation message to user,BookingSystem
+68,2024-09-27 22:36:39.676150,2024-09-27 22:36:41.152727,Receive confirmation,Charlie
+69,2024-09-27 22:36:02.925009,2024-09-27 22:36:05.378574,Browse attraction page,Eve
+69,2024-09-27 22:36:05.378574,2024-09-27 22:36:05.378574,Process terminated: User exited early,Eve
+70,2024-09-27 22:36:02.925010,2024-09-27 22:36:06.519949,Browse attraction page,David
+70,2024-09-27 22:36:06.519949,2024-09-27 22:36:10.277343,Response attraction information to user,VisitorInformationSystem
+70,2024-09-27 22:36:10.277343,2024-09-27 22:36:11.299260,Click specific attraction book now button,David
+70,2024-09-27 22:36:11.299260,2024-09-27 22:36:13.632370,Response tour information to user,BookingSystem
+70,2024-09-27 22:36:13.632370,2024-09-27 22:36:15.641656,View specific tour details,David
+70,2024-09-27 22:36:15.641656,2024-09-27 22:36:17.934547,Fill personal information and click book button,David
+70,2024-09-27 22:36:17.934547,2024-09-27 22:36:22.203829,Validate user input,BookingSystem
+70,2024-09-27 22:36:22.203829,2024-09-27 22:36:24.802880,Check availability,InventorySystem
+70,2024-09-27 22:36:24.802880,2024-09-27 22:36:27.914471,Create an order and return an order id to user,BookingSystem
+70,2024-09-27 22:36:27.914471,2024-09-27 22:36:30.494789,Confirm and pay,David
+70,2024-09-27 22:36:30.494789,2024-09-27 22:36:32.340204,Validate user payment information and process payment,PaymentGateway
+70,2024-09-27 22:36:32.340204,2024-09-27 22:36:36.541563,Update inventory,InventorySystem
+70,2024-09-27 22:36:36.541563,2024-09-27 22:36:39.431634,Send confirmation message to user,BookingSystem
+70,2024-09-27 22:36:39.431634,2024-09-27 22:36:43.060951,Receive confirmation,David
+71,2024-09-27 22:36:02.925018,2024-09-27 22:36:06.966723,Search for attraction,Eve
+71,2024-09-27 22:36:06.966723,2024-09-27 22:36:08.305537,Response attraction information to user,VisitorInformationSystem
+71,2024-09-27 22:36:08.305537,2024-09-27 22:36:12.284898,Click specific attraction book now button,Eve
+71,2024-09-27 22:36:12.284898,2024-09-27 22:36:17.064127,Response tour information to user,BookingSystem
+71,2024-09-27 22:36:17.064127,2024-09-27 22:36:20.144069,View specific tour details,Eve
+71,2024-09-27 22:36:20.144069,2024-09-27 22:36:22.984905,Fill personal information and click book button,Eve
+71,2024-09-27 22:36:22.984905,2024-09-27 22:36:26.637692,Validate user input,BookingSystem
+71,2024-09-27 22:36:26.637692,2024-09-27 22:36:30.766479,Check availability,InventorySystem
+71,2024-09-27 22:36:30.766479,2024-09-27 22:36:33.956604,Create an order and return an order id to user,BookingSystem
+71,2024-09-27 22:36:33.956604,2024-09-27 22:36:38.392071,Confirm and pay,Eve
+71,2024-09-27 22:36:38.392071,2024-09-27 22:36:42.867713,Validate user payment information and process payment,PaymentGateway
+71,2024-09-27 22:36:42.867713,2024-09-27 22:36:44.542670,Update inventory,InventorySystem
+71,2024-09-27 22:36:44.542670,2024-09-27 22:36:46.602450,Send confirmation message to user,BookingSystem
+71,2024-09-27 22:36:46.602450,2024-09-27 22:36:49.069636,Receive confirmation,Eve
+72,2024-09-27 22:36:02.925025,2024-09-27 22:36:04.784051,Browse attraction page,David
+72,2024-09-27 22:36:04.784051,2024-09-27 22:36:09.207254,Response attraction information to user,VisitorInformationSystem
+72,2024-09-27 22:36:09.207254,2024-09-27 22:36:11.734413,Click specific attraction book now button,David
+72,2024-09-27 22:36:11.734413,2024-09-27 22:36:14.841365,Response tour information to user,BookingSystem
+72,2024-09-27 22:36:14.841365,2024-09-27 22:36:18.051042,View specific tour details,David
+72,2024-09-27 22:36:18.051042,2024-09-27 22:36:20.636154,Fill personal information and click book button,David
+72,2024-09-27 22:36:20.636154,2024-09-27 22:36:24.858642,Validate user input,BookingSystem
+72,2024-09-27 22:36:24.858642,2024-09-27 22:36:28.884706,Check availability,InventorySystem
+72,2024-09-27 22:36:28.884706,2024-09-27 22:36:33.268529,Create an order and return an order id to user,BookingSystem
+72,2024-09-27 22:36:33.268529,2024-09-27 22:36:35.940595,Confirm and pay,David
+72,2024-09-27 22:36:35.940595,2024-09-27 22:36:38.180202,Validate user payment information and process payment,PaymentGateway
+72,2024-09-27 22:36:38.180202,2024-09-27 22:36:40.296641,Update inventory,InventorySystem
+72,2024-09-27 22:36:40.296641,2024-09-27 22:36:43.496981,Send confirmation message to user,BookingSystem
+72,2024-09-27 22:36:43.496981,2024-09-27 22:36:47.206815,Receive confirmation,David
+73,2024-09-27 22:36:02.925034,2024-09-27 22:36:07.203138,Search for attraction,Charlie
+73,2024-09-27 22:36:07.203138,2024-09-27 22:36:11.280448,Response attraction information to user,VisitorInformationSystem
+73,2024-09-27 22:36:11.280448,2024-09-27 22:36:13.083876,Click specific attraction book now button,Charlie
+73,2024-09-27 22:36:13.083876,2024-09-27 22:36:15.979854,Response tour information to user,BookingSystem
+73,2024-09-27 22:36:15.979854,2024-09-27 22:36:20.244251,View specific tour details,Charlie
+73,2024-09-27 22:36:20.244251,2024-09-27 22:36:24.502800,Fill personal information and click book button,Charlie
+73,2024-09-27 22:36:24.502800,2024-09-27 22:36:27.727358,Validate user input,BookingSystem
+73,2024-09-27 22:36:27.727358,2024-09-27 22:36:32.081812,Check availability,InventorySystem
+73,2024-09-27 22:36:32.081812,2024-09-27 22:36:36.614496,Create an order and return an order id to user,BookingSystem
+73,2024-09-27 22:36:36.614496,2024-09-27 22:36:41.218989,Confirm and pay,Charlie
+73,2024-09-27 22:36:41.218989,2024-09-27 22:36:45.320252,Validate user payment information and process payment,PaymentGateway
+73,2024-09-27 22:36:45.320252,2024-09-27 22:36:49.917753,Update inventory,InventorySystem
+73,2024-09-27 22:36:49.917753,2024-09-27 22:36:51.597898,Send confirmation message to user,BookingSystem
+73,2024-09-27 22:36:51.597898,2024-09-27 22:36:54.494563,Receive confirmation,Charlie
+74,2024-09-27 22:36:02.925041,2024-09-27 22:36:07.753489,Browse attraction page,Bob
+74,2024-09-27 22:36:07.753489,2024-09-27 22:36:09.338168,Response attraction information to user,VisitorInformationSystem
+74,2024-09-27 22:36:09.338168,2024-09-27 22:36:11.916660,Click specific attraction book now button,Bob
+74,2024-09-27 22:36:11.916660,2024-09-27 22:36:16.642966,Response tour information to user,BookingSystem
+74,2024-09-27 22:36:16.642966,2024-09-27 22:36:18.536878,View specific tour details,Bob
+74,2024-09-27 22:36:18.536878,2024-09-27 22:36:20.457491,Fill personal information and click book button,Bob
+74,2024-09-27 22:36:20.457491,2024-09-27 22:36:22.611986,Validate user input,BookingSystem
+74,2024-09-27 22:36:22.611986,2024-09-27 22:36:24.845519,Check availability,InventorySystem
+74,2024-09-27 22:36:24.845519,2024-09-27 22:36:27.254154,Create an order and return an order id to user,BookingSystem
+74,2024-09-27 22:36:27.254154,2024-09-27 22:36:30.724923,Confirm and pay,Bob
+74,2024-09-27 22:36:30.724923,2024-09-27 22:36:32.711543,Validate user payment information and process payment,PaymentGateway
+74,2024-09-27 22:36:32.711543,2024-09-27 22:36:35.679595,Update inventory,InventorySystem
+74,2024-09-27 22:36:35.679595,2024-09-27 22:36:36.943749,Send confirmation message to user,BookingSystem
+74,2024-09-27 22:36:36.943749,2024-09-27 22:36:41.029543,Receive confirmation,Bob
+75,2024-09-27 22:36:02.925049,2024-09-27 22:36:05.791245,Search for attraction,Eve
+75,2024-09-27 22:36:05.791245,2024-09-27 22:36:07.050595,Response attraction information to user,VisitorInformationSystem
+75,2024-09-27 22:36:07.050595,2024-09-27 22:36:11.547212,Click specific attraction book now button,Eve
+75,2024-09-27 22:36:11.547212,2024-09-27 22:36:14.680323,Response tour information to user,BookingSystem
+75,2024-09-27 22:36:14.680323,2024-09-27 22:36:19.065616,View specific tour details,Eve
+75,2024-09-27 22:36:19.065616,2024-09-27 22:36:20.086016,Fill personal information and click book button,Eve
+75,2024-09-27 22:36:20.086016,2024-09-27 22:36:24.489825,Validate user input,BookingSystem
+75,2024-09-27 22:36:24.489825,2024-09-27 22:36:26.263137,Check availability,InventorySystem
+75,2024-09-27 22:36:26.263137,2024-09-27 22:36:29.064402,Create an order and return an order id to user,BookingSystem
+75,2024-09-27 22:36:29.064402,2024-09-27 22:36:32.926387,Confirm and pay,Eve
+75,2024-09-27 22:36:32.926387,2024-09-27 22:36:32.926387,Process terminated: Payment failure,PaymentGateway
+76,2024-09-27 22:36:02.925054,2024-09-27 22:36:06.655479,Browse attraction page,David
+76,2024-09-27 22:36:06.655479,2024-09-27 22:36:08.529849,Response attraction information to user,VisitorInformationSystem
+76,2024-09-27 22:36:08.529849,2024-09-27 22:36:10.192257,Click specific attraction book now button,David
+76,2024-09-27 22:36:10.192257,2024-09-27 22:36:13.085415,Response tour information to user,BookingSystem
+76,2024-09-27 22:36:13.085415,2024-09-27 22:36:16.206456,View specific tour details,David
+76,2024-09-27 22:36:16.206456,2024-09-27 22:36:18.296216,Fill personal information and click book button,David
+76,2024-09-27 22:36:18.296216,2024-09-27 22:36:21.751548,Validate user input,BookingSystem
+76,2024-09-27 22:36:21.751548,2024-09-27 22:36:23.547553,Check availability,InventorySystem
+76,2024-09-27 22:36:23.547553,2024-09-27 22:36:24.830319,Create an order and return an order id to user,BookingSystem
+76,2024-09-27 22:36:24.830319,2024-09-27 22:36:28.545047,Confirm and pay,David
+76,2024-09-27 22:36:28.545047,2024-09-27 22:36:32.247152,Validate user payment information and process payment,PaymentGateway
+76,2024-09-27 22:36:32.247152,2024-09-27 22:36:35.675121,Update inventory,InventorySystem
+76,2024-09-27 22:36:35.675121,2024-09-27 22:36:38.448440,Send confirmation message to user,BookingSystem
+76,2024-09-27 22:36:38.448440,2024-09-27 22:36:42.135177,Receive confirmation,David
+77,2024-09-27 22:36:02.925062,2024-09-27 22:36:06.839258,Browse attraction page,Charlie
+77,2024-09-27 22:36:06.839258,2024-09-27 22:36:09.940566,Response attraction information to user,VisitorInformationSystem
+77,2024-09-27 22:36:09.940566,2024-09-27 22:36:12.118245,Click specific attraction book now button,Charlie
+77,2024-09-27 22:36:12.118245,2024-09-27 22:36:13.489674,Response tour information to user,BookingSystem
+77,2024-09-27 22:36:13.489674,2024-09-27 22:36:14.608606,View specific tour details,Charlie
+77,2024-09-27 22:36:14.608606,2024-09-27 22:36:16.920833,Fill personal information and click book button,Charlie
+77,2024-09-27 22:36:16.920833,2024-09-27 22:36:18.620213,Validate user input,BookingSystem
+77,2024-09-27 22:36:18.620213,2024-09-27 22:36:23.196388,Check availability,InventorySystem
+77,2024-09-27 22:36:23.196388,2024-09-27 22:36:25.914047,Create an order and return an order id to user,BookingSystem
+77,2024-09-27 22:36:25.914047,2024-09-27 22:36:30.367670,Confirm and pay,Charlie
+77,2024-09-27 22:36:30.367670,2024-09-27 22:36:34.268923,Validate user payment information and process payment,PaymentGateway
+77,2024-09-27 22:36:34.268923,2024-09-27 22:36:38.610710,Update inventory,InventorySystem
+77,2024-09-27 22:36:38.610710,2024-09-27 22:36:42.304608,Send confirmation message to user,BookingSystem
+77,2024-09-27 22:36:42.304608,2024-09-27 22:36:47.033440,Receive confirmation,Charlie
+78,2024-09-27 22:36:02.925069,2024-09-27 22:36:06.851077,Search for attraction,Alice
+78,2024-09-27 22:36:06.851077,2024-09-27 22:36:08.612182,Response attraction information to user,VisitorInformationSystem
+78,2024-09-27 22:36:08.612182,2024-09-27 22:36:11.941531,Click specific attraction book now button,Alice
+78,2024-09-27 22:36:11.941531,2024-09-27 22:36:16.157495,Response tour information to user,BookingSystem
+78,2024-09-27 22:36:16.157495,2024-09-27 22:36:19.098690,View specific tour details,Alice
+78,2024-09-27 22:36:19.098690,2024-09-27 22:36:20.895590,Fill personal information and click book button,Alice
+78,2024-09-27 22:36:20.895590,2024-09-27 22:36:23.960479,Validate user input,BookingSystem
+78,2024-09-27 22:36:23.960479,2024-09-27 22:36:27.302140,Check availability,InventorySystem
+78,2024-09-27 22:36:27.302140,2024-09-27 22:36:30.213500,Create an order and return an order id to user,BookingSystem
+78,2024-09-27 22:36:30.213500,2024-09-27 22:36:34.241912,Confirm and pay,Alice
+78,2024-09-27 22:36:34.241912,2024-09-27 22:36:36.917701,Validate user payment information and process payment,PaymentGateway
+78,2024-09-27 22:36:36.917701,2024-09-27 22:36:38.542135,Update inventory,InventorySystem
+78,2024-09-27 22:36:38.542135,2024-09-27 22:36:40.620095,Send confirmation message to user,BookingSystem
+78,2024-09-27 22:36:40.620095,2024-09-27 22:36:43.043851,Receive confirmation,Alice
+79,2024-09-27 22:36:02.925076,2024-09-27 22:36:04.469920,Search for attraction,Bob
+79,2024-09-27 22:36:04.469920,2024-09-27 22:36:04.469920,Process terminated: User exited early,Bob
+80,2024-09-27 22:36:02.925077,2024-09-27 22:36:04.161031,Browse attraction page,Alice
+80,2024-09-27 22:36:04.161031,2024-09-27 22:36:06.079054,Response attraction information to user,VisitorInformationSystem
+80,2024-09-27 22:36:06.079054,2024-09-27 22:36:08.063331,Click specific attraction book now button,Alice
+80,2024-09-27 22:36:08.063331,2024-09-27 22:36:11.143997,Response tour information to user,BookingSystem
+80,2024-09-27 22:36:11.143997,2024-09-27 22:36:14.361194,View specific tour details,Alice
+80,2024-09-27 22:36:14.361194,2024-09-27 22:36:16.192851,Fill personal information and click book button,Alice
+80,2024-09-27 22:36:16.192851,2024-09-27 22:36:19.540745,Validate user input,BookingSystem
+80,2024-09-27 22:36:19.540745,2024-09-27 22:36:23.441156,Check availability,InventorySystem
+80,2024-09-27 22:36:23.441156,2024-09-27 22:36:26.112027,Create an order and return an order id to user,BookingSystem
+80,2024-09-27 22:36:26.112027,2024-09-27 22:36:29.800000,Confirm and pay,Alice
+80,2024-09-27 22:36:29.800000,2024-09-27 22:36:32.119340,Validate user payment information and process payment,PaymentGateway
+80,2024-09-27 22:36:32.119340,2024-09-27 22:36:34.462509,Update inventory,InventorySystem
+80,2024-09-27 22:36:34.462509,2024-09-27 22:36:35.931115,Send confirmation message to user,BookingSystem
+80,2024-09-27 22:36:35.931115,2024-09-27 22:36:38.407120,Receive confirmation,Alice
+81,2024-09-27 22:36:02.925087,2024-09-27 22:36:05.028677,Browse attraction page,Alice
+81,2024-09-27 22:36:05.028677,2024-09-27 22:36:06.183281,Response attraction information to user,VisitorInformationSystem
+81,2024-09-27 22:36:06.183281,2024-09-27 22:36:10.503301,Click specific attraction book now button,Alice
+81,2024-09-27 22:36:10.503301,2024-09-27 22:36:13.083419,Response tour information to user,BookingSystem
+81,2024-09-27 22:36:13.083419,2024-09-27 22:36:14.897020,View specific tour details,Alice
+81,2024-09-27 22:36:14.897020,2024-09-27 22:36:18.207382,Fill personal information and click book button,Alice
+81,2024-09-27 22:36:18.207382,2024-09-27 22:36:19.368799,Validate user input,BookingSystem
+81,2024-09-27 22:36:19.368799,2024-09-27 22:36:23.634169,Check availability,InventorySystem
+81,2024-09-27 22:36:23.634169,2024-09-27 22:36:24.921393,Create an order and return an order id to user,BookingSystem
+81,2024-09-27 22:36:24.921393,2024-09-27 22:36:26.234159,Confirm and pay,Alice
+81,2024-09-27 22:36:26.234159,2024-09-27 22:36:27.332494,Validate user payment information and process payment,PaymentGateway
+81,2024-09-27 22:36:27.332494,2024-09-27 22:36:28.926340,Update inventory,InventorySystem
+81,2024-09-27 22:36:28.926340,2024-09-27 22:36:33.743154,Send confirmation message to user,BookingSystem
+81,2024-09-27 22:36:33.743154,2024-09-27 22:36:36.868874,Receive confirmation,Alice
+82,2024-09-27 22:36:02.925095,2024-09-27 22:36:04.147543,Search for attraction,Alice
+82,2024-09-27 22:36:04.147543,2024-09-27 22:36:05.913120,Response attraction information to user,VisitorInformationSystem
+82,2024-09-27 22:36:05.913120,2024-09-27 22:36:08.417269,Click specific attraction book now button,Alice
+82,2024-09-27 22:36:08.417269,2024-09-27 22:36:10.735646,Response tour information to user,BookingSystem
+82,2024-09-27 22:36:10.735646,2024-09-27 22:36:14.548142,View specific tour details,Alice
+82,2024-09-27 22:36:14.548142,2024-09-27 22:36:19.033647,Fill personal information and click book button,Alice
+82,2024-09-27 22:36:19.033647,2024-09-27 22:36:22.915420,Validate user input,BookingSystem
+82,2024-09-27 22:36:22.915420,2024-09-27 22:36:26.200324,Check availability,InventorySystem
+82,2024-09-27 22:36:26.200324,2024-09-27 22:36:30.120384,Create an order and return an order id to user,BookingSystem
+82,2024-09-27 22:36:30.120384,2024-09-27 22:36:31.650509,Confirm and pay,Alice
+82,2024-09-27 22:36:31.650509,2024-09-27 22:36:32.787047,Validate user payment information and process payment,PaymentGateway
+82,2024-09-27 22:36:32.787047,2024-09-27 22:36:37.725346,Update inventory,InventorySystem
+82,2024-09-27 22:36:37.725346,2024-09-27 22:36:39.819500,Send confirmation message to user,BookingSystem
+82,2024-09-27 22:36:39.819500,2024-09-27 22:36:42.458239,Receive confirmation,Alice
+83,2024-09-27 22:36:02.925105,2024-09-27 22:36:07.846230,Search for attraction,Bob
+83,2024-09-27 22:36:07.846230,2024-09-27 22:36:11.140925,Response attraction information to user,VisitorInformationSystem
+83,2024-09-27 22:36:11.140925,2024-09-27 22:36:12.821681,Click specific attraction book now button,Bob
+83,2024-09-27 22:36:12.821681,2024-09-27 22:36:16.300123,Response tour information to user,BookingSystem
+83,2024-09-27 22:36:16.300123,2024-09-27 22:36:17.903574,View specific tour details,Bob
+83,2024-09-27 22:36:17.903574,2024-09-27 22:36:20.986736,Fill personal information and click book button,Bob
+83,2024-09-27 22:36:20.986736,2024-09-27 22:36:22.788569,Validate user input,BookingSystem
+83,2024-09-27 22:36:22.788569,2024-09-27 22:36:24.939657,Check availability,InventorySystem
+83,2024-09-27 22:36:24.939657,2024-09-27 22:36:29.223372,Create an order and return an order id to user,BookingSystem
+83,2024-09-27 22:36:29.223372,2024-09-27 22:36:30.310625,Confirm and pay,Bob
+83,2024-09-27 22:36:30.310625,2024-09-27 22:36:31.471223,Validate user payment information and process payment,PaymentGateway
+83,2024-09-27 22:36:31.471223,2024-09-27 22:36:35.931716,Update inventory,InventorySystem
+83,2024-09-27 22:36:35.931716,2024-09-27 22:36:38.987083,Send confirmation message to user,BookingSystem
+83,2024-09-27 22:36:38.987083,2024-09-27 22:36:43.854928,Receive confirmation,Bob
+84,2024-09-27 22:36:02.925118,2024-09-27 22:36:04.869676,Search for attraction,Alice
+84,2024-09-27 22:36:04.869676,2024-09-27 22:36:09.145982,Response attraction information to user,VisitorInformationSystem
+84,2024-09-27 22:36:09.145982,2024-09-27 22:36:12.614638,Click specific attraction book now button,Alice
+84,2024-09-27 22:36:12.614638,2024-09-27 22:36:16.833028,Response tour information to user,BookingSystem
+84,2024-09-27 22:36:16.833028,2024-09-27 22:36:18.022005,View specific tour details,Alice
+84,2024-09-27 22:36:18.022005,2024-09-27 22:36:22.110161,Fill personal information and click book button,Alice
+84,2024-09-27 22:36:22.110161,2024-09-27 22:36:25.626080,Validate user input,BookingSystem
+84,2024-09-27 22:36:25.626080,2024-09-27 22:36:26.724667,Check availability,InventorySystem
+84,2024-09-27 22:36:26.724667,2024-09-27 22:36:31.289173,Create an order and return an order id to user,BookingSystem
+84,2024-09-27 22:36:31.289173,2024-09-27 22:36:35.170926,Confirm and pay,Alice
+84,2024-09-27 22:36:35.170926,2024-09-27 22:36:37.935775,Validate user payment information and process payment,PaymentGateway
+84,2024-09-27 22:36:37.935775,2024-09-27 22:36:41.828879,Update inventory,InventorySystem
+84,2024-09-27 22:36:41.828879,2024-09-27 22:36:43.817670,Send confirmation message to user,BookingSystem
+84,2024-09-27 22:36:43.817670,2024-09-27 22:36:48.807561,Receive confirmation,Alice
+85,2024-09-27 22:36:02.925125,2024-09-27 22:36:05.377326,Browse attraction page,Alice
+85,2024-09-27 22:36:05.377326,2024-09-27 22:36:05.377326,Process terminated: User exited early,Alice
+86,2024-09-27 22:36:02.925130,2024-09-27 22:36:06.811065,Browse attraction page,Eve
+86,2024-09-27 22:36:06.811065,2024-09-27 22:36:06.811065,Process terminated: User exited early,Eve
+87,2024-09-27 22:36:02.925131,2024-09-27 22:36:05.112351,Browse attraction page,Eve
+87,2024-09-27 22:36:05.112351,2024-09-27 22:36:09.911402,Response attraction information to user,VisitorInformationSystem
+87,2024-09-27 22:36:09.911402,2024-09-27 22:36:10.995077,Click specific attraction book now button,Eve
+87,2024-09-27 22:36:10.995077,2024-09-27 22:36:15.412778,Response tour information to user,BookingSystem
+87,2024-09-27 22:36:15.412778,2024-09-27 22:36:17.603956,View specific tour details,Eve
+87,2024-09-27 22:36:17.603956,2024-09-27 22:36:19.397103,Fill personal information and click book button,Eve
+87,2024-09-27 22:36:19.397103,2024-09-27 22:36:23.200233,Validate user input,BookingSystem
+87,2024-09-27 22:36:23.200233,2024-09-27 22:36:26.797931,Check availability,InventorySystem
+87,2024-09-27 22:36:26.797931,2024-09-27 22:36:28.235933,Create an order and return an order id to user,BookingSystem
+87,2024-09-27 22:36:28.235933,2024-09-27 22:36:32.603681,Confirm and pay,Eve
+87,2024-09-27 22:36:32.603681,2024-09-27 22:36:35.606701,Validate user payment information and process payment,PaymentGateway
+87,2024-09-27 22:36:35.606701,2024-09-27 22:36:38.013097,Update inventory,InventorySystem
+87,2024-09-27 22:36:38.013097,2024-09-27 22:36:39.133968,Send confirmation message to user,BookingSystem
+87,2024-09-27 22:36:39.133968,2024-09-27 22:36:40.153812,Receive confirmation,Eve
+88,2024-09-27 22:36:02.925142,2024-09-27 22:36:06.100500,Browse attraction page,David
+88,2024-09-27 22:36:06.100500,2024-09-27 22:36:08.843879,Response attraction information to user,VisitorInformationSystem
+88,2024-09-27 22:36:08.843879,2024-09-27 22:36:12.883759,Click specific attraction book now button,David
+88,2024-09-27 22:36:12.883759,2024-09-27 22:36:14.101892,Response tour information to user,BookingSystem
+88,2024-09-27 22:36:14.101892,2024-09-27 22:36:17.792330,View specific tour details,David
+88,2024-09-27 22:36:17.792330,2024-09-27 22:36:21.244719,Fill personal information and click book button,David
+88,2024-09-27 22:36:21.244719,2024-09-27 22:36:26.163702,Validate user input,BookingSystem
+88,2024-09-27 22:36:26.163702,2024-09-27 22:36:30.569929,Check availability,InventorySystem
+88,2024-09-27 22:36:30.569929,2024-09-27 22:36:34.957047,Create an order and return an order id to user,BookingSystem
+88,2024-09-27 22:36:34.957047,2024-09-27 22:36:36.724893,Confirm and pay,David
+88,2024-09-27 22:36:36.724893,2024-09-27 22:36:36.724893,Process terminated: Payment failure,PaymentGateway
+89,2024-09-27 22:36:02.925148,2024-09-27 22:36:05.657958,Search for attraction,Alice
+89,2024-09-27 22:36:05.657958,2024-09-27 22:36:07.509318,Response attraction information to user,VisitorInformationSystem
+89,2024-09-27 22:36:07.509318,2024-09-27 22:36:09.751085,Click specific attraction book now button,Alice
+89,2024-09-27 22:36:09.751085,2024-09-27 22:36:14.407959,Response tour information to user,BookingSystem
+89,2024-09-27 22:36:14.407959,2024-09-27 22:36:15.995118,View specific tour details,Alice
+89,2024-09-27 22:36:15.995118,2024-09-27 22:36:18.728755,Fill personal information and click book button,Alice
+89,2024-09-27 22:36:18.728755,2024-09-27 22:36:20.148520,Validate user input,BookingSystem
+89,2024-09-27 22:36:20.148520,2024-09-27 22:36:22.518020,Check availability,InventorySystem
+89,2024-09-27 22:36:22.518020,2024-09-27 22:36:24.844164,Create an order and return an order id to user,BookingSystem
+89,2024-09-27 22:36:24.844164,2024-09-27 22:36:29.566019,Confirm and pay,Alice
+89,2024-09-27 22:36:29.566019,2024-09-27 22:36:31.973675,Validate user payment information and process payment,PaymentGateway
+89,2024-09-27 22:36:31.973675,2024-09-27 22:36:35.972249,Update inventory,InventorySystem
+89,2024-09-27 22:36:35.972249,2024-09-27 22:36:40.748773,Send confirmation message to user,BookingSystem
+89,2024-09-27 22:36:40.748773,2024-09-27 22:36:45.381828,Receive confirmation,Alice
+90,2024-09-27 22:36:02.925155,2024-09-27 22:36:06.766932,Browse attraction page,Alice
+90,2024-09-27 22:36:06.766932,2024-09-27 22:36:10.412567,Response attraction information to user,VisitorInformationSystem
+90,2024-09-27 22:36:10.412567,2024-09-27 22:36:12.482546,Click specific attraction book now button,Alice
+90,2024-09-27 22:36:12.482546,2024-09-27 22:36:13.506089,Response tour information to user,BookingSystem
+90,2024-09-27 22:36:13.506089,2024-09-27 22:36:17.893489,View specific tour details,Alice
+90,2024-09-27 22:36:17.893489,2024-09-27 22:36:20.342217,Fill personal information and click book button,Alice
+90,2024-09-27 22:36:20.342217,2024-09-27 22:36:24.219555,Validate user input,BookingSystem
+90,2024-09-27 22:36:24.219555,2024-09-27 22:36:26.905582,Check availability,InventorySystem
+90,2024-09-27 22:36:26.905582,2024-09-27 22:36:30.508100,Create an order and return an order id to user,BookingSystem
+90,2024-09-27 22:36:30.508100,2024-09-27 22:36:31.664849,Confirm and pay,Alice
+90,2024-09-27 22:36:31.664849,2024-09-27 22:36:35.572816,Validate user payment information and process payment,PaymentGateway
+90,2024-09-27 22:36:35.572816,2024-09-27 22:36:39.836522,Update inventory,InventorySystem
+90,2024-09-27 22:36:39.836522,2024-09-27 22:36:41.597237,Send confirmation message to user,BookingSystem
+90,2024-09-27 22:36:41.597237,2024-09-27 22:36:46.382938,Receive confirmation,Alice
+91,2024-09-27 22:36:02.925166,2024-09-27 22:36:04.463008,Browse attraction page,Eve
+91,2024-09-27 22:36:04.463008,2024-09-27 22:36:06.581295,Response attraction information to user,VisitorInformationSystem
+91,2024-09-27 22:36:06.581295,2024-09-27 22:36:07.625890,Click specific attraction book now button,Eve
+91,2024-09-27 22:36:07.625890,2024-09-27 22:36:09.155717,Response tour information to user,BookingSystem
+91,2024-09-27 22:36:09.155717,2024-09-27 22:36:13.076873,View specific tour details,Eve
+91,2024-09-27 22:36:13.076873,2024-09-27 22:36:14.404138,Fill personal information and click book button,Eve
+91,2024-09-27 22:36:14.404138,2024-09-27 22:36:15.787446,Validate user input,BookingSystem
+91,2024-09-27 22:36:15.787446,2024-09-27 22:36:18.819583,Check availability,InventorySystem
+91,2024-09-27 22:36:18.819583,2024-09-27 22:36:21.148662,Create an order and return an order id to user,BookingSystem
+91,2024-09-27 22:36:21.148662,2024-09-27 22:36:24.837105,Confirm and pay,Eve
+91,2024-09-27 22:36:24.837105,2024-09-27 22:36:27.329867,Validate user payment information and process payment,PaymentGateway
+91,2024-09-27 22:36:27.329867,2024-09-27 22:36:32.130199,Update inventory,InventorySystem
+91,2024-09-27 22:36:32.130199,2024-09-27 22:36:33.868100,Send confirmation message to user,BookingSystem
+91,2024-09-27 22:36:33.868100,2024-09-27 22:36:38.866870,Receive confirmation,Eve
+92,2024-09-27 22:36:02.925176,2024-09-27 22:36:04.630064,Browse attraction page,Eve
+92,2024-09-27 22:36:04.630064,2024-09-27 22:36:06.515006,Response attraction information to user,VisitorInformationSystem
+92,2024-09-27 22:36:06.515006,2024-09-27 22:36:11.228222,Click specific attraction book now button,Eve
+92,2024-09-27 22:36:11.228222,2024-09-27 22:36:15.875661,Response tour information to user,BookingSystem
+92,2024-09-27 22:36:15.875661,2024-09-27 22:36:20.022457,View specific tour details,Eve
+92,2024-09-27 22:36:20.022457,2024-09-27 22:36:23.110659,Fill personal information and click book button,Eve
+92,2024-09-27 22:36:23.110659,2024-09-27 22:36:27.871444,Validate user input,BookingSystem
+92,2024-09-27 22:36:27.871444,2024-09-27 22:36:31.918691,Check availability,InventorySystem
+92,2024-09-27 22:36:31.918691,2024-09-27 22:36:36.797805,Create an order and return an order id to user,BookingSystem
+92,2024-09-27 22:36:36.797805,2024-09-27 22:36:38.075973,Confirm and pay,Eve
+92,2024-09-27 22:36:38.075973,2024-09-27 22:36:40.810561,Validate user payment information and process payment,PaymentGateway
+92,2024-09-27 22:36:40.810561,2024-09-27 22:36:42.532626,Update inventory,InventorySystem
+92,2024-09-27 22:36:42.532626,2024-09-27 22:36:46.247080,Send confirmation message to user,BookingSystem
+92,2024-09-27 22:36:46.247080,2024-09-27 22:36:48.796896,Receive confirmation,Eve
+93,2024-09-27 22:36:02.925184,2024-09-27 22:36:05.849605,Search for attraction,Eve
+93,2024-09-27 22:36:05.849605,2024-09-27 22:36:05.849605,Process terminated: System failure,VisitorInformationSystem
+94,2024-09-27 22:36:02.925185,2024-09-27 22:36:07.559435,Search for attraction,Eve
+94,2024-09-27 22:36:07.559435,2024-09-27 22:36:09.920194,Response attraction information to user,VisitorInformationSystem
+94,2024-09-27 22:36:09.920194,2024-09-27 22:36:12.139053,Click specific attraction book now button,Eve
+94,2024-09-27 22:36:12.139053,2024-09-27 22:36:13.540662,Response tour information to user,BookingSystem
+94,2024-09-27 22:36:13.540662,2024-09-27 22:36:17.532615,View specific tour details,Eve
+94,2024-09-27 22:36:17.532615,2024-09-27 22:36:21.719890,Fill personal information and click book button,Eve
+94,2024-09-27 22:36:21.719890,2024-09-27 22:36:23.046456,Validate user input,BookingSystem
+94,2024-09-27 22:36:23.046456,2024-09-27 22:36:27.374529,Check availability,InventorySystem
+94,2024-09-27 22:36:27.374529,2024-09-27 22:36:28.766904,Create an order and return an order id to user,BookingSystem
+94,2024-09-27 22:36:28.766904,2024-09-27 22:36:33.294793,Confirm and pay,Eve
+94,2024-09-27 22:36:33.294793,2024-09-27 22:36:35.098239,Validate user payment information and process payment,PaymentGateway
+94,2024-09-27 22:36:35.098239,2024-09-27 22:36:36.128557,Update inventory,InventorySystem
+94,2024-09-27 22:36:36.128557,2024-09-27 22:36:37.348766,Send confirmation message to user,BookingSystem
+94,2024-09-27 22:36:37.348766,2024-09-27 22:36:39.683610,Receive confirmation,Eve
+95,2024-09-27 22:36:02.925192,2024-09-27 22:36:05.356599,Search for attraction,Alice
+95,2024-09-27 22:36:05.356599,2024-09-27 22:36:07.237225,Response attraction information to user,VisitorInformationSystem
+95,2024-09-27 22:36:07.237225,2024-09-27 22:36:10.204397,Click specific attraction book now button,Alice
+95,2024-09-27 22:36:10.204397,2024-09-27 22:36:15.179332,Response tour information to user,BookingSystem
+95,2024-09-27 22:36:15.179332,2024-09-27 22:36:17.650010,View specific tour details,Alice
+95,2024-09-27 22:36:17.650010,2024-09-27 22:36:19.955271,Fill personal information and click book button,Alice
+95,2024-09-27 22:36:19.955271,2024-09-27 22:36:23.855946,Validate user input,BookingSystem
+95,2024-09-27 22:36:23.855946,2024-09-27 22:36:25.414705,Check availability,InventorySystem
+95,2024-09-27 22:36:25.414705,2024-09-27 22:36:28.573904,Create an order and return an order id to user,BookingSystem
+95,2024-09-27 22:36:28.573904,2024-09-27 22:36:32.335374,Confirm and pay,Alice
+95,2024-09-27 22:36:32.335374,2024-09-27 22:36:36.973289,Validate user payment information and process payment,PaymentGateway
+95,2024-09-27 22:36:36.973289,2024-09-27 22:36:38.557175,Update inventory,InventorySystem
+95,2024-09-27 22:36:38.557175,2024-09-27 22:36:42.749326,Send confirmation message to user,BookingSystem
+95,2024-09-27 22:36:42.749326,2024-09-27 22:36:46.318648,Receive confirmation,Alice
+96,2024-09-27 22:36:02.925199,2024-09-27 22:36:07.273364,Browse attraction page,Charlie
+96,2024-09-27 22:36:07.273364,2024-09-27 22:36:12.068816,Response attraction information to user,VisitorInformationSystem
+96,2024-09-27 22:36:12.068816,2024-09-27 22:36:13.350230,Click specific attraction book now button,Charlie
+96,2024-09-27 22:36:13.350230,2024-09-27 22:36:15.311334,Response tour information to user,BookingSystem
+96,2024-09-27 22:36:15.311334,2024-09-27 22:36:18.837608,View specific tour details,Charlie
+96,2024-09-27 22:36:18.837608,2024-09-27 22:36:23.064136,Fill personal information and click book button,Charlie
+96,2024-09-27 22:36:23.064136,2024-09-27 22:36:26.093961,Validate user input,BookingSystem
+96,2024-09-27 22:36:26.093961,2024-09-27 22:36:27.199622,Check availability,InventorySystem
+96,2024-09-27 22:36:27.199622,2024-09-27 22:36:28.230725,Create an order and return an order id to user,BookingSystem
+96,2024-09-27 22:36:28.230725,2024-09-27 22:36:32.269223,Confirm and pay,Charlie
+96,2024-09-27 22:36:32.269223,2024-09-27 22:36:36.335509,Validate user payment information and process payment,PaymentGateway
+96,2024-09-27 22:36:36.335509,2024-09-27 22:36:39.418973,Update inventory,InventorySystem
+96,2024-09-27 22:36:39.418973,2024-09-27 22:36:41.412356,Send confirmation message to user,BookingSystem
+96,2024-09-27 22:36:41.412356,2024-09-27 22:36:45.591518,Receive confirmation,Charlie
+97,2024-09-27 22:36:02.925207,2024-09-27 22:36:07.303267,Search for attraction,Bob
+97,2024-09-27 22:36:07.303267,2024-09-27 22:36:07.303267,Process terminated: User exited early,Bob
+98,2024-09-27 22:36:02.925212,2024-09-27 22:36:04.820875,Browse attraction page,Eve
+98,2024-09-27 22:36:04.820875,2024-09-27 22:36:06.372082,Response attraction information to user,VisitorInformationSystem
+98,2024-09-27 22:36:06.372082,2024-09-27 22:36:09.644043,Click specific attraction book now button,Eve
+98,2024-09-27 22:36:09.644043,2024-09-27 22:36:14.577502,Response tour information to user,BookingSystem
+98,2024-09-27 22:36:14.577502,2024-09-27 22:36:15.865297,View specific tour details,Eve
+98,2024-09-27 22:36:15.865297,2024-09-27 22:36:16.992619,Fill personal information and click book button,Eve
+98,2024-09-27 22:36:16.992619,2024-09-27 22:36:18.400279,Validate user input,BookingSystem
+98,2024-09-27 22:36:18.400279,2024-09-27 22:36:20.878506,Check availability,InventorySystem
+98,2024-09-27 22:36:20.878506,2024-09-27 22:36:25.108034,Create an order and return an order id to user,BookingSystem
+98,2024-09-27 22:36:25.108034,2024-09-27 22:36:27.702177,Confirm and pay,Eve
+98,2024-09-27 22:36:27.702177,2024-09-27 22:36:30.453420,Validate user payment information and process payment,PaymentGateway
+98,2024-09-27 22:36:30.453420,2024-09-27 22:36:32.084529,Update inventory,InventorySystem
+98,2024-09-27 22:36:32.084529,2024-09-27 22:36:34.801189,Send confirmation message to user,BookingSystem
+98,2024-09-27 22:36:34.801189,2024-09-27 22:36:39.271324,Receive confirmation,Eve
+99,2024-09-27 22:36:02.925220,2024-09-27 22:36:05.540327,Browse attraction page,Eve
+99,2024-09-27 22:36:05.540327,2024-09-27 22:36:05.540327,Process terminated: User exited early,Eve
+100,2024-09-27 22:36:02.925222,2024-09-27 22:36:06.235848,Search for attraction,Bob
+100,2024-09-27 22:36:06.235848,2024-09-27 22:36:08.450965,Response attraction information to user,VisitorInformationSystem
+100,2024-09-27 22:36:08.450965,2024-09-27 22:36:10.013168,Click specific attraction book now button,Bob
+100,2024-09-27 22:36:10.013168,2024-09-27 22:36:14.592274,Response tour information to user,BookingSystem
+100,2024-09-27 22:36:14.592274,2024-09-27 22:36:19.213096,View specific tour details,Bob
+100,2024-09-27 22:36:19.213096,2024-09-27 22:36:21.693118,Fill personal information and click book button,Bob
+100,2024-09-27 22:36:21.693118,2024-09-27 22:36:25.928672,Validate user input,BookingSystem
+100,2024-09-27 22:36:25.928672,2024-09-27 22:36:29.008649,Check availability,InventorySystem
+100,2024-09-27 22:36:29.008649,2024-09-27 22:36:30.969783,Create an order and return an order id to user,BookingSystem
+100,2024-09-27 22:36:30.969783,2024-09-27 22:36:35.597617,Confirm and pay,Bob
+100,2024-09-27 22:36:35.597617,2024-09-27 22:36:36.976399,Validate user payment information and process payment,PaymentGateway
+100,2024-09-27 22:36:36.976399,2024-09-27 22:36:41.372587,Update inventory,InventorySystem
+100,2024-09-27 22:36:41.372587,2024-09-27 22:36:45.389237,Send confirmation message to user,BookingSystem
+100,2024-09-27 22:36:45.389237,2024-09-27 22:36:47.290801,Receive confirmation,Bob
