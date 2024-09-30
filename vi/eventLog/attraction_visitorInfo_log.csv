@@ -1,0 +1,21 @@
+Case ID,Start Timestamp,Complete Timestamp,Task,Resource
+1,2024-09-30 18:09:46.973564,2024-09-30 18:09:50.095469,Browse attraction page,Bob
+1,2024-09-30 18:09:50.095469,2024-09-30 18:09:54.998743,Response all attraction information to user,VisitorInformationSystem
+2,2024-09-30 18:09:46.973577,2024-09-30 18:09:48.656569,Search for attraction,David
+2,2024-09-30 18:09:48.656569,2024-09-30 18:09:50.571189,Response searched attraction information to user,VisitorInformationSystem
+3,2024-09-30 18:09:46.973581,2024-09-30 18:09:51.900207,Browse attraction page,Bob
+3,2024-09-30 18:09:51.900207,2024-09-30 18:09:56.311576,Error: Unable to retrieve all attraction information,VisitorInformationSystem
+4,2024-09-30 18:09:46.973583,2024-09-30 18:09:50.558947,Click specific hot attraction read more button,Bob
+4,2024-09-30 18:09:50.558947,2024-09-30 18:09:51.836907,Error: Unable to retrieve specific attraction information,VisitorInformationSystem
+5,2024-09-30 18:09:46.973586,2024-09-30 18:09:49.689423,Search for attraction,Eve
+5,2024-09-30 18:09:49.689423,2024-09-30 18:09:54.276982,Response searched attraction information to user,VisitorInformationSystem
+6,2024-09-30 18:09:46.973588,2024-09-30 18:09:51.701687,Search for attraction,Eve
+6,2024-09-30 18:09:51.701687,2024-09-30 18:09:52.772158,Response searched attraction information to user,VisitorInformationSystem
+7,2024-09-30 18:09:46.973590,2024-09-30 18:09:48.501882,Click specific hot attraction read more button,Alice
+7,2024-09-30 18:09:48.501882,2024-09-30 18:09:49.572438,Response specific attraction information to user,VisitorInformationSystem
+8,2024-09-30 18:09:46.973592,2024-09-30 18:09:48.717438,Click specific hot attraction read more button,David
+8,2024-09-30 18:09:48.717438,2024-09-30 18:09:51.127487,Error: Unable to retrieve specific attraction information,VisitorInformationSystem
+9,2024-09-30 18:09:46.973594,2024-09-30 18:09:49.541845,Browse attraction page,Bob
+9,2024-09-30 18:09:49.541845,2024-09-30 18:09:53.036494,Response all attraction information to user,VisitorInformationSystem
+10,2024-09-30 18:09:46.973596,2024-09-30 18:09:49.508596,Click specific hot attraction read more button,Charlie
+10,2024-09-30 18:09:49.508596,2024-09-30 18:09:52.340794,Response specific attraction information to user,VisitorInformationSystem
