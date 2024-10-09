@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tourism Information Center</title>
+
+    <!-- tab logo -->
+    <link rel="icon" type="image/x-icon" href="/images/tablogo.png" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- swiper js cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- home page event section's icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+
+    <!-- Home section google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="top"></div>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-hiking"></i> TIC </a>
+
+      <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a href="index.html">Home</a>
+        <a href="attraction.html">Attraction</a>
+        <a href="events.html">Events</a>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <!-- (#ffffff00, #000000a0) -->
+          <div class="swiper-slide">
+            <div class="box second" style="background: linear-gradient(45deg,
+            rgba(0, 0, 0, 0.615), rgba(255, 255, 0, 0)),
+            url(./images/TIC-HOME-Sydney.webp) center/cover no-repeat;"">
+            <div class="content">
+              <span style="color: white">#Visit</span>
+              <h3>Harbour Bridge</h3>
+              <p style="color: white">
+                The Sydney Harbour Bridge is a steel through arch bridge in
+                Sydney, New South Wales, Australia, spanning Sydney Harbour from
+                the central business district to the North Shore. The view of
+                the bridge, the harbour, and the nearby Sydney Opera House is
+                widely regarded as an iconic image of Sydney, and of Australia
+                itself. Nicknamed "The Coathanger" because of its arch-based
+                design, the bridge carries rail, vehicular, bicycle and
+                pedestrian traffic.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div
+            class="box second"
+            style="
+              background: linear-gradient(
+                  45deg,
+                  rgba(0, 0, 0, 0.615),
+                  rgba(255, 255, 0, 0)
+                ),
+                url(./images/TIC-HOME-KI.webp) no-repeat;
+            "
+          >
+            <div class="content">
+              <span style="color: white">Welcome to</span>
+              <h3>Kangaroo Island</h3>
+              <p style="color: white">
+                Kangaroo Island is one of the natural Australian landmarks that
+                can't be missed on your trip. Located 13 kilometres off the
+                coast of South Australia, the island is the country's
+                third-largest island after Tasmania and Melville Island.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div
+            class="box second"
+            style="
+              background: linear-gradient(#ffffff00, #000000a0),
+                url(./images/TIC-HOME-MountKosciuszko.webp) center/cover
+                  no-repeat;
+            "
+          >
+            <div class="content">
+              <span style="color: white">Explore the</span>
+              <h3>Mount Kosciuszko</h3>
+              <p style="color: white">
+                Mount Kosciuszko is 2,228 metres above sea level, making it the
+                highest mountain in mainland Australia. It is located in
+                Kosciuszko National Park and is in the Main Range of the Snowy
+                Mountains.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- hot attraction section starts  -->
+
+    <section class="category adventure" id="adventure">
+      <h1 class="heading">Hot Attractions</h1>
+
+      <div class="box-container" id="hot-attraction-container"></div>
+    </section>
+
+    <!-- hot attraction section ends -->
+
+    <!-- event home page section starts -->
+
+    <section class="event">
+      <h1 class="heading1">Upcoming Events</h1>
+      <div class="eventrow" id="upcoming-event-container"></div>
+    </section>
+
+    <!-- event home page section ends -->
+
+    <!-- newsletter section  -->
+
+    <section class="newsletter">
+      <div class="content">
+        <h1 class="heading">subscirbe now</h1>
+        <p>
+          Subscribe for our newsletter to receive event notification to help
+          plan your next vacation. Stay informed and get the most out of your
+          travels by subscribing to our email list today.
+        </p>
+        <form id="emailForm">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            id="emailInput"
+            class="email"
+          />
+          <input type="submit" value="subscirbe" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="swiper clients-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide silde">
+            <img src="images/client-logo-1.png" alt="" />
+          </div>
+          <div class="swiper-slide silde">
+            <img src="images/client-logo-2.png" alt="" />
+          </div>
+          <div class="swiper-slide silde">
+            <img src="images/client-logo-3.png" alt="" />
+          </div>
+          <div class="swiper-slide silde">
+            <img src="images/client-logo-4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Quick links</h3>
+          <a href="index.html">Home</a>
+          <a href="attraction.html">Attraction</a>
+          <a href="events.html">Events</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#"> <i class="fas fa-envelope"></i> Group 666 </a>
+          <a href="#"> <i class="fas fa-map"></i> University of Wollongong</a>
+        </div>
+      </div>
+
+      <div class="credit">
+        <br />
+        Copyright ©️ 2024 - all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- ------scroller to top -->
+
+    <a href="#top" class="to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="js/getHotAttraction.js"></script>
+    <script src="js/getHomeEvents.js"></script>
+    <script src="js/handleEmailSubscribe.js"></script>
+    <!-- <div class="scroll-container">
+    <a href="#top">To Top</a>
+</div> -->
+  </body>
+</html>
