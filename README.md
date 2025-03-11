@@ -11,3 +11,5 @@ Additionally, the Event Log folder is designed to generate simulated events, whi
 All backend codes have been deployed on the aws cloud server, at the same time, we import third libraries using CDN method. Therefore, you don't need to install any third libraries before running. All things are ready, and AWS cloud deployment will be maintained until the score of this group project assignment released.
 
 Just click on the 'Front-end' folder,and run the index.html then enjoy it.(Or run the command 'live-server' in the terminal if you have installed.)
+
+Since the data in AWS DynamoDB has been deleted, if you want to use this web application, please create a corresponding database in AWS, import data using the backend py file, and copy the lambda function to create the corresponding restful api to replace the existing one.
